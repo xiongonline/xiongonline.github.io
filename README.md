@@ -3,3 +3,4 @@
 >><a href="https://xiongonline.github.io/[转载][FC]FC图文汉化教程.html" target="_blank">[转载][FC]FC图文汉化教程</a><br/>
 >><a href="https://xiongonline.github.io/[转载][FC]FC大字体汉化方法.html" target="_blank">[转载][FC]FC大字体汉化方法</a><br/>
 >><a href="https://xiongonline.github.io/[转载][GBA]汉化基础教程完整版.html" target="_blank">[转载][GBA]汉化基础教程完整版</a><br/>
+>><a href="https://xiongonline.github.io/[转载][NDS]NDS汉化小白教程.html" target="_blank">[转载][NDS]NDS汉化小白教程</a><br/>
