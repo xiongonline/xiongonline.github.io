@@ -1,0 +1,3254 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<!-- Pictures by : money_114 -->
+<!-- OL Datter : money_114 -->
+
+<dat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datas.xsd">
+	<configuration>
+		<datName>Chinese Game Dat (Simplified) - MD</datName>
+		<imFolder>Chinese Games - MD</imFolder>
+		<datVersion>20210920</datVersion>
+		<system>Sega - Mega Drive - Genesis</system>
+		<screenshotsWidth>320</screenshotsWidth>
+		<screenshotsHeight>240</screenshotsHeight>
+		<infos>
+			<title visible="true" inNamingOption="true" default="false"/>
+			<location visible="true" inNamingOption="true" default="true"/>
+			<publisher visible="true" inNamingOption="true" default="true"/>
+			<sourceRom visible="true" inNamingOption="true" default="true"/>
+			<romSize visible="true" inNamingOption="true" default="true"/>
+			<saveType visible="true" inNamingOption="true" default="false"/>
+			<releaseNumber visible="false" inNamingOption="true" default="false"/>
+			<imageNumber visible="false" inNamingOption="false" default="false"/>
+			<languageNumber visible="false" inNamingOption="false" default="false"/>
+			<comment visible="true" inNamingOption="true" default="true"/>
+			<romCRC visible="true" inNamingOption="true" default="true"/>
+			<im1CRC visible="false" inNamingOption="false" default="false"/>
+			<im2CRC visible="false" inNamingOption="false" default="false"/>
+			<languages visible="true" inNamingOption="true" default="true"/>
+		</infos>
+		<canOpen>
+			<extension>.md</extension>
+		</canOpen>
+		<newDat>
+			<datVersionURL></datVersionURL>
+			<datURL fileName="CHS_MD_OL.zip"></datURL>
+			<imURL></imURL>
+		</newDat>
+		<search>
+			<to value="location" default="true" auto="true"/>
+			<to value="sourceRom" default="true" auto="true"/>
+			<to value="publisher" default="true" auto="true"/>
+			<to value="languages" default="false" auto="true"/>
+			<to value="romSize" default="true" auto="false">
+				<find operation="=" value="262144">2 MBits</find>
+				<find operation="=" value="524288">4 MBits</find>
+				<find operation="=" value="655360">5 MBits</find>
+				<find operation="=" value="1048576">8 MBits</find>
+				<find operation="=" value="1310720">10 MBits</find>
+				<find operation="=" value="1392768">10.63 MBits</find>
+				<find operation="=" value="1572864">12 MBits</find>
+				<find operation="=" value="2097152">16 MBits</find>
+				<find operation="=" value="2293760">17.5 MBits</find>
+				<find operation="=" value="2359296">18 MBits</find>
+				<find operation="=" value="2639872">20.14 MBits</find>
+				<find operation="=" value="3145728">24 MBits</find>
+				<find operation="=" value="3670016">28 MBits</find>
+				<find operation="=" value="4194304">32 MBits</find>
+				<find operation="=" value="5242880">40 MBits</find>
+			</to>
+			<to value="saveType" default="false" auto="false">
+			</to>
+		</search>
+		<romTitle>%n [%g]</romTitle>
+	</configuration>
+	<games>
+		<game>
+			<imageNumber>1</imageNumber>
+			<releaseNumber>1</releaseNumber>
+			<title>十三张麻将 - 98美少女 (繁)</title>
+			<saveType></saveType>
+			<romSize>655360</romSize>
+			<publisher>BBD</publisher>
+			<location>3</location>
+			<sourceRom>BBD</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">68B372F6</romCRC>
+			</files>
+			<im1CRC>783A12FE</im1CRC>
+			<im2CRC>0532D3C5</im2CRC>
+			<comment>13 Zhang Majiang (China) (Unl) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>2</imageNumber>
+			<releaseNumber>2</releaseNumber>
+			<title>十六张麻将 (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Sun Green</publisher>
+			<location>3</location>
+			<sourceRom>三协资讯</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">36407C82</romCRC>
+			</files>
+			<im1CRC>A7A25B07</im1CRC>
+			<im2CRC>92BF444B</im2CRC>
+			<comment>16 Zhang Ma Jiang (China) (Unl) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>3</imageNumber>
+			<releaseNumber>3</releaseNumber>
+			<title>凯撒雄心1 (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Micronet</publisher>
+			<location>7</location>
+			<sourceRom>未知</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">69C000F5</romCRC>
+			</files>
+			<im1CRC>59D41B9E</im1CRC>
+			<im2CRC>46C7FB0E</im2CRC>
+			<comment>Caesar no Yabou (Japan) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>4</imageNumber>
+			<releaseNumber>4</releaseNumber>
+			<title>航空霸业2 (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Koei</publisher>
+			<location>1</location>
+			<sourceRom>SKOB</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">19F38AE5</romCRC>
+			</files>
+			<im1CRC>06F2B3F5</im1CRC>
+			<im2CRC>9A0AE87B</im2CRC>
+			<comment>Aerobiz Supersonic (USA) [CHT]</comment>
+			<duplicateID>4</duplicateID>
+		</game>
+		<game>
+			<imageNumber>5</imageNumber>
+			<releaseNumber>5</releaseNumber>
+			<title>成吉思汗2 - 元朝秘史之苍狼与白鹿 (繁)</title>
+			<saveType></saveType>
+			<romSize>1310720</romSize>
+			<publisher>Koei</publisher>
+			<location>7</location>
+			<sourceRom>SKOB</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">7C161C48</romCRC>
+			</files>
+			<im1CRC>478F7AA3</im1CRC>
+			<im2CRC>2476CEC4</im2CRC>
+			<comment>Aoki Ookami to Shiroki Meshika - Genchou Hishi (Japan) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>6</imageNumber>
+			<releaseNumber>6</releaseNumber>
+			<title>大战略 - 闪电奇袭 (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>TCT</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">06653575</romCRC>
+			</files>
+			<im1CRC>CFBEF54D</im1CRC>
+			<im2CRC>98819D98</im2CRC>
+			<comment>Advanced Daisenryaku - Deutsch Dengeki Sakusen (Japan) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>7</imageNumber>
+			<releaseNumber>7</releaseNumber>
+			<title>阿Q连环泡 (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>全崴资讯</publisher>
+			<location>3</location>
+			<sourceRom>全崴资讯</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">2C6CBD77</romCRC>
+			</files>
+			<im1CRC>E0917CFD</im1CRC>
+			<im2CRC>FB2BC34C</im2CRC>
+			<comment>Aq Renkan Awa (China) (Unl) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>8</imageNumber>
+			<releaseNumber>8</releaseNumber>
+			<title>怒之铁拳3 (简)</title>
+			<saveType></saveType>
+			<romSize>3145728</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>天使</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">8AD4A09E</romCRC>
+			</files>
+			<im1CRC>B2F1769D</im1CRC>
+			<im2CRC>E511588D</im2CRC>
+			<comment>Bare Knuckle III (Japan) [CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>9</imageNumber>
+			<releaseNumber>9</releaseNumber>
+			<title>圣战风云 (简)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>147201688</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">A5C04710</romCRC>
+			</files>
+			<im1CRC>332AA33E</im1CRC>
+			<im2CRC>61C2A5B9</im2CRC>
+			<comment>Bahamut Senki (Japan) [CHS]</comment>
+			<duplicateID>9</duplicateID>
+		</game>
+		<game>
+			<imageNumber>10</imageNumber>
+			<releaseNumber>10</releaseNumber>
+			<title>圣战风云 (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>永盛</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">98C368CE</romCRC>
+			</files>
+			<im1CRC>33770C02</im1CRC>
+			<im2CRC>C339623C</im2CRC>
+			<comment>Bahamut Senki (Japan) [CHT]</comment>
+			<duplicateID>9</duplicateID>
+		</game>
+		<game>
+			<imageNumber>11</imageNumber>
+			<releaseNumber>11</releaseNumber>
+			<title>太空战士 - 魔法战士 (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>川普科技</publisher>
+			<location>3</location>
+			<sourceRom>147201688</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">AE58855D</romCRC>
+			</files>
+			<im1CRC>B6D46E2B</im1CRC>
+			<im2CRC>789A585C</im2CRC>
+			<comment>Barver Battle Saga - Tai Kong Zhan Shi (China) (Unl) [CHS]</comment>
+			<duplicateID>11</duplicateID>
+		</game>
+		<game>
+			<imageNumber>12</imageNumber>
+			<releaseNumber>12</releaseNumber>
+			<title>太空战士 - 魔法战士 (修正版) (繁)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>川普科技</publisher>
+			<location>3</location>
+			<sourceRom>Ken</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">879759A5</romCRC>
+			</files>
+			<im1CRC>B389674F</im1CRC>
+			<im2CRC>18B0B884</im2CRC>
+			<comment>Barver Battle Saga - Tai Kong Zhan Shi (China) (Unl) (Fix) [CHT]</comment>
+			<duplicateID>11</duplicateID>
+		</game>
+		<game>
+			<imageNumber>13</imageNumber>
+			<releaseNumber>13</releaseNumber>
+			<title>魂斗罗4 - 铁血兵团 (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Konami</publisher>
+			<location>7</location>
+			<sourceRom>Phanteam</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">8EEE5895</romCRC>
+			</files>
+			<im1CRC>0B3E22BA</im1CRC>
+			<im2CRC>B413769A</im2CRC>
+			<comment>Contra - The Hard Corps (Japan) [CHS]</comment>
+			<duplicateID>13</duplicateID>
+		</game>
+		<game>
+			<imageNumber>14</imageNumber>
+			<releaseNumber>14</releaseNumber>
+			<title>魂斗罗4 - 铁血兵团 (繁)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Konami</publisher>
+			<location>7</location>
+			<sourceRom>Phanteam</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">8CCD66E6</romCRC>
+			</files>
+			<im1CRC>CBEE820C</im1CRC>
+			<im2CRC>F8D76F24</im2CRC>
+			<comment>Contra - The Hard Corps (Japan) [CHT]</comment>
+			<duplicateID>13</duplicateID>
+		</game>
+		<game>
+			<imageNumber>15</imageNumber>
+			<releaseNumber>15</releaseNumber>
+			<title>中国象棋 (简)</title>
+			<saveType></saveType>
+			<romSize>524288</romSize>
+			<publisher>January</publisher>
+			<location>3</location>
+			<sourceRom>January</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">475215A0</romCRC>
+			</files>
+			<im1CRC>30F05575</im1CRC>
+			<im2CRC>D684306C</im2CRC>
+			<comment>Chinese Chess (China) (Unl) [CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>16</imageNumber>
+			<releaseNumber>16</releaseNumber>
+			<title>吞食天地3 (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>SKOB</publisher>
+			<location>3</location>
+			<sourceRom>熊组</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">EA57B668</romCRC>
+			</files>
+			<im1CRC>4A8ADEA0</im1CRC>
+			<im2CRC>445B73FC</im2CRC>
+			<comment>Tun Shi Tian Di III (China) (Unl) [CHS]</comment>
+			<duplicateID>16</duplicateID>
+		</game>
+		<game>
+			<imageNumber>17</imageNumber>
+			<releaseNumber>17</releaseNumber>
+			<title>吞食天地3 (繁)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>SKOB</publisher>
+			<location>3</location>
+			<sourceRom>SKOB</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">B23C4166</romCRC>
+			</files>
+			<im1CRC>406BA670</im1CRC>
+			<im2CRC>3F8BB74D</im2CRC>
+			<comment>Tun Shi Tian Di III (China) (Unl) [CHT]</comment>
+			<duplicateID>16</duplicateID>
+		</game>
+		<game>
+			<imageNumber>18</imageNumber>
+			<releaseNumber>18</releaseNumber>
+			<title>恐龙兄弟2 (简)</title>
+			<saveType></saveType>
+			<romSize>2359296</romSize>
+			<publisher>CSK</publisher>
+			<location>7</location>
+			<sourceRom>意志之路</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">D9A431E3</romCRC>
+			</files>
+			<im1CRC>AC8F77C0</im1CRC>
+			<im2CRC>87EE3154</im2CRC>
+			<comment>Dyna Brothers 2 (Japan) [CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>19</imageNumber>
+			<releaseNumber>19</releaseNumber>
+			<title>大航海时代1 (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Koei</publisher>
+			<location>7</location>
+			<sourceRom>TCT</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">B2F18328</romCRC>
+			</files>
+			<im1CRC>F07DABDD</im1CRC>
+			<im2CRC>C4965B01</im2CRC>
+			<comment>Daikoukai Jidai (Japan) [CHT]</comment>
+			<duplicateID>19</duplicateID>
+		</game>
+		<game>
+			<imageNumber>20</imageNumber>
+			<releaseNumber>20</releaseNumber>
+			<title>大航海时代2 (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Koei</publisher>
+			<location>7</location>
+			<sourceRom>模拟天下</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">5171A4E4</romCRC>
+			</files>
+			<im1CRC>7F339E73</im1CRC>
+			<im2CRC>15076BDD</im2CRC>
+			<comment>Daikoukai Jidai II (Japan) [CHS]</comment>
+			<duplicateID>20</duplicateID>
+		</game>
+		<game>
+			<imageNumber>21</imageNumber>
+			<releaseNumber>21</releaseNumber>
+			<title>大航海时代2 (繁)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Koei</publisher>
+			<location>7</location>
+			<sourceRom>永盛</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">75B4A604</romCRC>
+			</files>
+			<im1CRC>C2EF92DA</im1CRC>
+			<im2CRC>C728853A</im2CRC>
+			<comment>Daikoukai Jidai II (Japan) [CHT]</comment>
+			<duplicateID>20</duplicateID>
+		</game>
+		<game>
+			<imageNumber>22</imageNumber>
+			<releaseNumber>22</releaseNumber>
+			<title>大航海时代2 (v1.9C) (繁)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Koei</publisher>
+			<location>7</location>
+			<sourceRom>意志之路</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">A3CA9B9E</romCRC>
+			</files>
+			<im1CRC>32C4A06D</im1CRC>
+			<im2CRC>FF27582C</im2CRC>
+			<comment>Daikoukai Jidai II (Japan) (v1.9C) [CHT]</comment>
+			<duplicateID>20</duplicateID>
+		</game>
+		<game>
+			<imageNumber>23</imageNumber>
+			<releaseNumber>23</releaseNumber>
+			<title>大航海时代2 (v1.9D1) (加强版) (繁)</title>
+			<saveType></saveType>
+			<romSize>2641920</romSize>
+			<publisher>Koei</publisher>
+			<location>7</location>
+			<sourceRom>意志之路</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">F7F878F5</romCRC>
+			</files>
+			<im1CRC>61CF1234</im1CRC>
+			<im2CRC>2CB07CA0</im2CRC>
+			<comment>Daikoukai Jidai II (Japan) (v1.9D1 Plus) [CHS&amp;CHT]</comment>
+			<duplicateID>20</duplicateID>
+		</game>
+		<game>
+			<imageNumber>24</imageNumber>
+			<releaseNumber>24</releaseNumber>
+			<title>麻雀恶魔塔 (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>全崴资讯</publisher>
+			<location>3</location>
+			<sourceRom>全崴资讯</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">12E35994</romCRC>
+			</files>
+			<im1CRC>96F72D55</im1CRC>
+			<im2CRC>13475CA9</im2CRC>
+			<comment>Ma Qiao E Mo Ta - Devilish Mahjong Tower (China) (Unl) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>25</imageNumber>
+			<releaseNumber>25</releaseNumber>
+			<title>雀侦物语 (简)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>未知</publisher>
+			<location>7</location>
+			<sourceRom>Phanteam</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">1002C02F</romCRC>
+			</files>
+			<im1CRC>45F32A99</im1CRC>
+			<im2CRC>056CFA16</im2CRC>
+			<comment>Dial Q o Mawase! (Japan) (Unl) [CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>26</imageNumber>
+			<releaseNumber>26</releaseNumber>
+			<title>英雄传说2 (繁菜单)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>小鬼混</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">A7492E5F</romCRC>
+			</files>
+			<im1CRC>70B97984</im1CRC>
+			<im2CRC>0E7A64BA</im2CRC>
+			<comment>Dragon Slayer - Eiyuu Densetsu II (Japan) [Menu CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>27</imageNumber>
+			<releaseNumber>27</releaseNumber>
+			<title>时空异变 (简)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Renovation</publisher>
+			<location>1</location>
+			<sourceRom>永盛</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">A40972A1</romCRC>
+			</files>
+			<im1CRC>0E8BA3CB</im1CRC>
+			<im2CRC>B7768F85</im2CRC>
+			<comment>Exile (USA) [CHS]</comment>
+			<duplicateID>27</duplicateID>
+		</game>
+		<game>
+			<imageNumber>28</imageNumber>
+			<releaseNumber>28</releaseNumber>
+			<title>王者雄师 (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Koei</publisher>
+			<location>7</location>
+			<sourceRom>TCT</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">53D5FD55</romCRC>
+			</files>
+			<im1CRC>3879E9BE</im1CRC>
+			<im2CRC>B09446F0</im2CRC>
+			<comment>Europa Sensen (Japan) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>29</imageNumber>
+			<releaseNumber>29</releaseNumber>
+			<title>爆笑三国 (简)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>全崴资讯</publisher>
+			<location>3</location>
+			<sourceRom>147201688</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">DF107B54</romCRC>
+			</files>
+			<im1CRC>FE78903D</im1CRC>
+			<im2CRC>677E83D6</im2CRC>
+			<comment>Explosion Sangokushi (China) (Unl) [CHS]</comment>
+			<duplicateID>29</duplicateID>
+		</game>
+		<game>
+			<imageNumber>30</imageNumber>
+			<releaseNumber>30</releaseNumber>
+			<title>爆笑三国 (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>全崴资讯</publisher>
+			<location>3</location>
+			<sourceRom>全崴资讯</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">496EB1D1</romCRC>
+			</files>
+			<im1CRC>FE78903D</im1CRC>
+			<im2CRC>EDBC0F81</im2CRC>
+			<comment>Explosion Sangokushi (China) (Unl) [CHT]</comment>
+			<duplicateID>29</duplicateID>
+		</game>
+		<game>
+			<imageNumber>31</imageNumber>
+			<releaseNumber>31</releaseNumber>
+			<title>灌篮高手 - 正面的对决 (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Bandai</publisher>
+			<location>7</location>
+			<sourceRom>熊组</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">89253739</romCRC>
+			</files>
+			<im1CRC>AB2F2565</im1CRC>
+			<im2CRC>86171544</im2CRC>
+			<comment>From TV Animation Slam Dunk - Kyougou Makkou Taiketsu! (Japan) [CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>32</imageNumber>
+			<releaseNumber>32</releaseNumber>
+			<title>封神英杰传 (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>皇家科技</publisher>
+			<location>3</location>
+			<sourceRom>147201688</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">DF1748DE</romCRC>
+			</files>
+			<im1CRC>E98F6C46</im1CRC>
+			<im2CRC>283DBA22</im2CRC>
+			<comment>Feng Shen Ying Jie Chuan (China) (Unl) [CHS]</comment>
+			<duplicateID>32</duplicateID>
+		</game>
+		<game>
+			<imageNumber>33</imageNumber>
+			<releaseNumber>33</releaseNumber>
+			<title>封神英杰传 (繁)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>皇家科技</publisher>
+			<location>3</location>
+			<sourceRom>川普科技</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">6A382B60</romCRC>
+			</files>
+			<im1CRC>555283C9</im1CRC>
+			<im2CRC>D0A88E94</im2CRC>
+			<comment>Feng Shen Ying Jie Chuan (China) (Unl) [CHT]</comment>
+			<duplicateID>32</duplicateID>
+		</game>
+		<game>
+			<imageNumber>34</imageNumber>
+			<releaseNumber>34</releaseNumber>
+			<title>黑桃2 (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>King Tec</publisher>
+			<location>3</location>
+			<sourceRom>川普科技</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">31449113</romCRC>
+			</files>
+			<im1CRC>216FE35C</im1CRC>
+			<im2CRC>F656DB38</im2CRC>
+			<comment>Hei Tao 2 - Super Big 2 (China) (Unl) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>35</imageNumber>
+			<releaseNumber>35</releaseNumber>
+			<title>疯狂桃花源 (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>松诠资讯</publisher>
+			<location>3</location>
+			<sourceRom>松诠资讯</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">44C660F1</romCRC>
+			</files>
+			<im1CRC>C1CF2CDD</im1CRC>
+			<im2CRC>EB8DE5F8</im2CRC>
+			<comment>Feng Kuang Tao Hua Yuan (China) (Unl) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>36</imageNumber>
+			<releaseNumber>36</releaseNumber>
+			<title>皇帝的财宝 - 秘境魔宝 (简)</title>
+			<saveType></saveType>
+			<romSize>2293760</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>意志之路</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">D2982A65</romCRC>
+			</files>
+			<im1CRC>DBB4201C</im1CRC>
+			<im2CRC>8E91E09A</im2CRC>
+			<comment>Landstalker - Koutei no Zaihou (Japan) [CHS]</comment>
+			<duplicateID>36</duplicateID>
+		</game>
+		<game>
+			<imageNumber>37</imageNumber>
+			<releaseNumber>37</releaseNumber>
+			<title>皇帝的财宝 - 秘境魔宝 (繁)</title>
+			<saveType></saveType>
+			<romSize>3145728</romSize>
+			<publisher>Sega</publisher>
+			<location>1</location>
+			<sourceRom>永盛</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">1246D176</romCRC>
+			</files>
+			<im1CRC>2CD6717B</im1CRC>
+			<im2CRC>2BED3302</im2CRC>
+			<comment>Landstalker (USA) (Beta) [CHT]</comment>
+			<duplicateID>36</duplicateID>
+		</game>
+		<game>
+			<imageNumber>38</imageNumber>
+			<releaseNumber>38</releaseNumber>
+			<title>梦幻模拟战2 (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Masaya</publisher>
+			<location>7</location>
+			<sourceRom>狼组</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">3F02618E</romCRC>
+			</files>
+			<im1CRC>B76660EC</im1CRC>
+			<im2CRC>C40EFF83</im2CRC>
+			<comment>Langrisser II (Japan) [CHS]</comment>
+			<duplicateID>38</duplicateID>
+		</game>
+		<game>
+			<imageNumber>39</imageNumber>
+			<releaseNumber>39</releaseNumber>
+			<title>梦幻模拟战2 (繁)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Masaya</publisher>
+			<location>7</location>
+			<sourceRom>未知</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">C969F590</romCRC>
+			</files>
+			<im1CRC>DC066B1D</im1CRC>
+			<im2CRC>7329CF7D</im2CRC>
+			<comment>Langrisser II (Japan) [CHT]</comment>
+			<duplicateID>38</duplicateID>
+		</game>
+		<game>
+			<imageNumber>40</imageNumber>
+			<releaseNumber>40</releaseNumber>
+			<title>蒙纳克皇族 - 最终战斗传说 (简菜单)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>小鬼混</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">907AD9C1</romCRC>
+			</files>
+			<im1CRC>856C2D7F</im1CRC>
+			<im2CRC>42AD74B5</im2CRC>
+			<comment>Lord Monarch - Tokoton Sentou Densetsu (Japan) [Menu CHS]</comment>
+			<duplicateID>40</duplicateID>
+		</game>
+		<game>
+			<imageNumber>41</imageNumber>
+			<releaseNumber>41</releaseNumber>
+			<title>梦幻水果盘 (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>City Man</publisher>
+			<location>3</location>
+			<sourceRom>三协资讯</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">42DC03E4</romCRC>
+			</files>
+			<im1CRC>76B2A3F2</im1CRC>
+			<im2CRC>95596ACC</im2CRC>
+			<comment>Meng Huan Shui Guo Pan - 777 Casino (China) (Unl) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>42</imageNumber>
+			<releaseNumber>42</releaseNumber>
+			<title>小魔女铃铃 (繁)</title>
+			<saveType></saveType>
+			<romSize>524288</romSize>
+			<publisher>三协资讯</publisher>
+			<location>3</location>
+			<sourceRom>三协资讯</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">8E49A92E</romCRC>
+			</files>
+			<im1CRC>C5F457D5</im1CRC>
+			<im2CRC>DA446AFA</im2CRC>
+			<comment>Xiao Monv - Magic Girl (China) (Unl) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>43</imageNumber>
+			<releaseNumber>43</releaseNumber>
+			<title>数字射击 (简)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Davidson &amp; Associates</publisher>
+			<location>1</location>
+			<sourceRom>小鬼混</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">7A0876A0</romCRC>
+			</files>
+			<im1CRC>C819AEF0</im1CRC>
+			<im2CRC>2CC5DF7A</im2CRC>
+			<comment>Math Blaster - Episode 1 (USA) [CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>44</imageNumber>
+			<releaseNumber>44</releaseNumber>
+			<title>信长野望 - 霸王传 (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Koei</publisher>
+			<location>7</location>
+			<sourceRom>147201688</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">1BB86A33</romCRC>
+			</files>
+			<im1CRC>FD2AE9B9</im1CRC>
+			<im2CRC>D4885B4B</im2CRC>
+			<comment>Nobunaga no Yabou - Haouden (Japan) [CHS]</comment>
+			<duplicateID>44</duplicateID>
+		</game>
+		<game>
+			<imageNumber>45</imageNumber>
+			<releaseNumber>45</releaseNumber>
+			<title>信长野望 - 霸王传 (繁)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Koei</publisher>
+			<location>7</location>
+			<sourceRom>永盛</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">0A0993CF</romCRC>
+			</files>
+			<im1CRC>FD2AE9B9</im1CRC>
+			<im2CRC>401E11A7</im2CRC>
+			<comment>Nobunaga no Yabou - Haouden (Japan) [CHT]</comment>
+			<duplicateID>44</duplicateID>
+		</game>
+		<game>
+			<imageNumber>46</imageNumber>
+			<releaseNumber>46</releaseNumber>
+			<title>究极麻将2 - 治艳篇 (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Sun Green</publisher>
+			<location>3</location>
+			<sourceRom>Sun Green</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">E9829B22</romCRC>
+			</files>
+			<im1CRC>BC537B54</im1CRC>
+			<im2CRC>C73DDC04</im2CRC>
+			<comment>Jiu Ji Ma Jiang II - Ye Yan Bian (China) (Unl) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>47</imageNumber>
+			<releaseNumber>47</releaseNumber>
+			<title>梦幻之星2 - 不归的终点 (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Sega</publisher>
+			<location>16</location>
+			<sourceRom>永盛</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">D4BF83CC</romCRC>
+			</files>
+			<im1CRC>A3AE0314</im1CRC>
+			<im2CRC>3BB067A7</im2CRC>
+			<comment>Phantasy Star II (USA, Europe) (Rev A) [CHT]</comment>
+			<duplicateID>47</duplicateID>
+		</game>
+		<game>
+			<imageNumber>48</imageNumber>
+			<releaseNumber>48</releaseNumber>
+			<title>光明与黑暗 (修正版) (繁)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>小鬼混</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">EA770243</romCRC>
+			</files>
+			<im1CRC>C1C79769</im1CRC>
+			<im2CRC>E266D5ED</im2CRC>
+			<comment>Shining and the Darkness (Japan) (Fix) [CHT]</comment>
+			<duplicateID>48</duplicateID>
+		</game>
+		<game>
+			<imageNumber>49</imageNumber>
+			<releaseNumber>49</releaseNumber>
+			<title>三国志2 (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Koei</publisher>
+			<location>7</location>
+			<sourceRom>TCT</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">BF7CEBE7</romCRC>
+			</files>
+			<im1CRC>32CC7504</im1CRC>
+			<im2CRC>2E636766</im2CRC>
+			<comment>Sangokushi II (Japan) [CHT]</comment>
+			<duplicateID>49</duplicateID>
+		</game>
+		<game>
+			<imageNumber>50</imageNumber>
+			<releaseNumber>50</releaseNumber>
+			<title>三国志3 (繁)</title>
+			<saveType></saveType>
+			<romSize>1572864</romSize>
+			<publisher>Koei</publisher>
+			<location>7</location>
+			<sourceRom>TCT</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">24450D9B</romCRC>
+			</files>
+			<im1CRC>688B46EA</im1CRC>
+			<im2CRC>7BA548A4</im2CRC>
+			<comment>Sangokushi III (Japan) [CHT]</comment>
+			<duplicateID>50</duplicateID>
+		</game>
+		<game>
+			<imageNumber>51</imageNumber>
+			<releaseNumber>51</releaseNumber>
+			<title>吞食天地2 - 火烧赤壁 (繁)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>三协资讯</publisher>
+			<location>3</location>
+			<sourceRom>三协资讯</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">63ECA090</romCRC>
+			</files>
+			<im1CRC>60AE3C93</im1CRC>
+			<im2CRC>F52C2520</im2CRC>
+			<comment>Romance of the Three Kingdoms - the Battle of Red Cliffs (China) (Unl) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>52</imageNumber>
+			<releaseNumber>52</releaseNumber>
+			<title>三国志5 (繁)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>SKOB</publisher>
+			<location>3</location>
+			<sourceRom>SKOB</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">CD7E53D0</romCRC>
+			</files>
+			<im1CRC>7D14EF48</im1CRC>
+			<im2CRC>298E6E33</im2CRC>
+			<comment>San Guo Zhi V (China) (Unl) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>53</imageNumber>
+			<releaseNumber>53</releaseNumber>
+			<title>超级忍2 (简)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>cslrxyz</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">8D8FB732</romCRC>
+			</files>
+			<im1CRC>ADB9442C</im1CRC>
+			<im2CRC>17B164E3</im2CRC>
+			<comment>Super Shinobi II, The (Japan) [CHS]</comment>
+			<duplicateID>53</duplicateID>
+		</game>
+		<game>
+			<imageNumber>54</imageNumber>
+			<releaseNumber>54</releaseNumber>
+			<title>超级大富翁 (简)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>三协资讯</publisher>
+			<location>3</location>
+			<sourceRom>147201688</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">37C9779E</romCRC>
+			</files>
+			<im1CRC>F0535F55</im1CRC>
+			<im2CRC>8317B2B1</im2CRC>
+			<comment>Chao Ji Da Fu Weng (China) (Unl) [CHS]</comment>
+			<duplicateID>54</duplicateID>
+		</game>
+		<game>
+			<imageNumber>55</imageNumber>
+			<releaseNumber>55</releaseNumber>
+			<title>超级大富翁 (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>三协资讯</publisher>
+			<location>3</location>
+			<sourceRom>三协资讯</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">2E2EA687</romCRC>
+			</files>
+			<im1CRC>AF37BE74</im1CRC>
+			<im2CRC>6570857A</im2CRC>
+			<comment>Chao Ji Da Fu Weng (China) (Unl) [CHT]</comment>
+			<duplicateID>54</duplicateID>
+		</game>
+		<game>
+			<imageNumber>56</imageNumber>
+			<releaseNumber>56</releaseNumber>
+			<title>新创世纪 (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>147201688</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">A2C0A73C</romCRC>
+			</files>
+			<im1CRC>EA51B286</im1CRC>
+			<im2CRC>C248684E</im2CRC>
+			<comment>Shin Souseiki Ragnacenty (Japan) [CHS]</comment>
+			<duplicateID>56</duplicateID>
+		</game>
+		<game>
+			<imageNumber>57</imageNumber>
+			<releaseNumber>57</releaseNumber>
+			<title>新创世纪 (繁)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>永盛</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">A6DCE438</romCRC>
+			</files>
+			<im1CRC>EA51B286</im1CRC>
+			<im2CRC>07816533</im2CRC>
+			<comment>Shin Souseiki Ragnacenty (Japan) [CHT]</comment>
+			<duplicateID>56</duplicateID>
+		</game>
+		<game>
+			<imageNumber>58</imageNumber>
+			<releaseNumber>58</releaseNumber>
+			<title>水浒风云传 (繁)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>King Tec</publisher>
+			<location>3</location>
+			<sourceRom>Never Ending Soft Team</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">3E9E010C</romCRC>
+			</files>
+			<im1CRC>39FC40AC</im1CRC>
+			<im2CRC>39A0BDFD</im2CRC>
+			<comment>Shui Hu - Feng Yun Zhuan (China) (Unl) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>59</imageNumber>
+			<releaseNumber>59</releaseNumber>
+			<title>三国志列传 - 乱世群英 (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>未知</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">3B5CC398</romCRC>
+			</files>
+			<im1CRC>05CD4DC8</im1CRC>
+			<im2CRC>3A2FF912</im2CRC>
+			<comment>Sangokushi Retsuden - Ransei no Eiyuutachi (Japan) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>60</imageNumber>
+			<releaseNumber>60</releaseNumber>
+			<title>光明力量1 - 诸神之遗产 (繁)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Sega</publisher>
+			<location>1</location>
+			<sourceRom>未知</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">6EE8CBDA</romCRC>
+			</files>
+			<im1CRC>58FBEC9B</im1CRC>
+			<im2CRC>A247E627</im2CRC>
+			<comment>Shining Force (USA) [CHT]</comment>
+			<duplicateID>60</duplicateID>
+		</game>
+		<game>
+			<imageNumber>61</imageNumber>
+			<releaseNumber>61</releaseNumber>
+			<title>光明力量1 - 诸神之遗产 (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Sega</publisher>
+			<location>1</location>
+			<sourceRom>zymgundam</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">6AEC9557</romCRC>
+			</files>
+			<im1CRC>58FBEC9B</im1CRC>
+			<im2CRC>5657D5C6</im2CRC>
+			<comment>Shining Force (USA) [CHS]</comment>
+			<duplicateID>60</duplicateID>
+		</game>
+		<game>
+			<imageNumber>62</imageNumber>
+			<releaseNumber>62</releaseNumber>
+			<title>新光明与黑暗3 - 古代封印 (简)</title>
+			<saveType></saveType>
+			<romSize>3145728</romSize>
+			<publisher>Sega</publisher>
+			<location>0</location>
+			<sourceRom>永盛</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">362D4EF2</romCRC>
+			</files>
+			<im1CRC>D2B9DD9D</im1CRC>
+			<im2CRC>B02281D7</im2CRC>
+			<comment>Shining Force II (Europe) [CHS]</comment>
+			<duplicateID>62</duplicateID>
+		</game>
+		<game>
+			<imageNumber>63</imageNumber>
+			<releaseNumber>63</releaseNumber>
+			<title>光明力量2 - 古代之封印 (v1.8d) (简)</title>
+			<saveType></saveType>
+			<romSize>3145728</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>意志之路</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">5DD08AEA</romCRC>
+			</files>
+			<im1CRC>6E34483A</im1CRC>
+			<im2CRC>E47050E6</im2CRC>
+			<comment>Shining Force II - Koe no Fuuin (Japan) (v1.8d) [CHT]</comment>
+			<duplicateID>62</duplicateID>
+		</game>
+		<game>
+			<imageNumber>64</imageNumber>
+			<releaseNumber>64</releaseNumber>
+			<title>怒之铁拳2 - 死斗安魂曲 (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Sega</publisher>
+			<location>-1</location>
+			<sourceRom>天使</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">CB308EC2</romCRC>
+			</files>
+			<im1CRC>E8B1028B</im1CRC>
+			<im2CRC>C9D474AB</im2CRC>
+			<comment>Bare Knuckle II - Shitou heno Chingonka ~ Streets of Rage II (Japan, Europe) [CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>65</imageNumber>
+			<releaseNumber>65</releaseNumber>
+			<title>巫术神界 (简)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Treco</publisher>
+			<location>1</location>
+			<sourceRom>永盛</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">50FFE73F</romCRC>
+			</files>
+			<im1CRC>3D898060</im1CRC>
+			<im2CRC>72F8E517</im2CRC>
+			<comment>Sorcerer's Kingdom (USA) (v1.1) [CHS]</comment>
+			<duplicateID>65</duplicateID>
+		</game>
+		<game>
+			<imageNumber>66</imageNumber>
+			<releaseNumber>66</releaseNumber>
+			<title>雷神传说 - 光之继承者 (简)</title>
+			<saveType></saveType>
+			<romSize>3145728</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>天使</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">3CA3FCD7</romCRC>
+			</files>
+			<im1CRC>4B4DF61A</im1CRC>
+			<im2CRC>7C8DDC9E</im2CRC>
+			<comment>Story of Thor, The - Hikari o Tsugumono (Japan) [CHS]</comment>
+			<duplicateID>66</duplicateID>
+		</game>
+		<game>
+			<imageNumber>67</imageNumber>
+			<releaseNumber>67</releaseNumber>
+			<title>雷神传说 - 光之继承者 (繁)</title>
+			<saveType></saveType>
+			<romSize>3145728</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>天使</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">EBC50AFC</romCRC>
+			</files>
+			<im1CRC>E74DBE11</im1CRC>
+			<im2CRC>7F61CD58</im2CRC>
+			<comment>Story of Thor, The - Hikari o Tsugumono (Japan) [CHT]</comment>
+			<duplicateID>66</duplicateID>
+		</game>
+		<game>
+			<imageNumber>68</imageNumber>
+			<releaseNumber>68</releaseNumber>
+			<title>台湾大亨 (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>全崴资讯</publisher>
+			<location>3</location>
+			<sourceRom>全崴资讯</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">BAF20F81</romCRC>
+			</files>
+			<im1CRC>E3A86562</im1CRC>
+			<im2CRC>0D0807E8</im2CRC>
+			<comment>Taiwan Daheng (China) (Unl) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>69</imageNumber>
+			<releaseNumber>69</releaseNumber>
+			<title>吞食天地3 - 三国外传 (繁)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>三协资讯</publisher>
+			<location>3</location>
+			<sourceRom>三协资讯</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">6F98247D</romCRC>
+			</files>
+			<im1CRC>24D69DFD</im1CRC>
+			<im2CRC>72A58184</im2CRC>
+			<comment>Tun Shi Tian Di 3 - San Guo Wai Zhuan (China) (Unl) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>70</imageNumber>
+			<releaseNumber>70</releaseNumber>
+			<title>水浒传 (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>川普科技</publisher>
+			<location>3</location>
+			<sourceRom>147201688</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">97F256BB</romCRC>
+			</files>
+			<im1CRC>0EA23128</im1CRC>
+			<im2CRC>5FC964BA</im2CRC>
+			<comment>Shui Hu Zhuan (China) (Unl) [CHS]</comment>
+			<duplicateID>70</duplicateID>
+		</game>
+		<game>
+			<imageNumber>71</imageNumber>
+			<releaseNumber>71</releaseNumber>
+			<title>水浒传 (修正版) (繁)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>川普科技</publisher>
+			<location>3</location>
+			<sourceRom>Ken</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">2B7758B5</romCRC>
+			</files>
+			<im1CRC>0EA23128</im1CRC>
+			<im2CRC>2AB84A99</im2CRC>
+			<comment>Shui Hu Zhuan (China) (Unl) (Fix) [CHT]</comment>
+			<duplicateID>70</duplicateID>
+		</game>
+		<game>
+			<imageNumber>72</imageNumber>
+			<releaseNumber>72</releaseNumber>
+			<title>太阁立志传1 (简)</title>
+			<saveType></saveType>
+			<romSize>1310720</romSize>
+			<publisher>Koei</publisher>
+			<location>7</location>
+			<sourceRom>147201688</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">C69FCA55</romCRC>
+			</files>
+			<im1CRC>C162E158</im1CRC>
+			<im2CRC>8B7E646E</im2CRC>
+			<comment>Taikou Risshiden (Japan) [CHS]</comment>
+			<duplicateID>72</duplicateID>
+		</game>
+		<game>
+			<imageNumber>73</imageNumber>
+			<releaseNumber>73</releaseNumber>
+			<title>太阁立志传1 (简)</title>
+			<saveType></saveType>
+			<romSize>1310720</romSize>
+			<publisher>Koei</publisher>
+			<location>7</location>
+			<sourceRom>小召</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">0811CD0E</romCRC>
+			</files>
+			<im1CRC>9629355F</im1CRC>
+			<im2CRC>D17BC1DC</im2CRC>
+			<comment>Taikou Risshiden (Japan) [CHS]</comment>
+			<duplicateID>72</duplicateID>
+		</game>
+		<game>
+			<imageNumber>74</imageNumber>
+			<releaseNumber>74</releaseNumber>
+			<title>太阁立志传1 (繁)</title>
+			<saveType></saveType>
+			<romSize>1310720</romSize>
+			<publisher>Koei</publisher>
+			<location>7</location>
+			<sourceRom>永盛</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">185F7902</romCRC>
+			</files>
+			<im1CRC>CF1D3752</im1CRC>
+			<im2CRC>B4EAA57F</im2CRC>
+			<comment>Taikou Risshiden (Japan) [CHT]</comment>
+			<duplicateID>72</duplicateID>
+		</game>
+		<game>
+			<imageNumber>75</imageNumber>
+			<releaseNumber>75</releaseNumber>
+			<title>天下统一 - 乱世的霸者 (简)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Asmik</publisher>
+			<location>7</location>
+			<sourceRom>小鬼混</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">B50511D5</romCRC>
+			</files>
+			<im1CRC>B9845DA6</im1CRC>
+			<im2CRC>14FB8FD3</im2CRC>
+			<comment>Ransei no Hasha (Japan) [CHS]</comment>
+			<duplicateID>75</duplicateID>
+		</game>
+		<game>
+			<imageNumber>76</imageNumber>
+			<releaseNumber>76</releaseNumber>
+			<title>天下统一 - 乱世的霸者 (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Asmik</publisher>
+			<location>7</location>
+			<sourceRom>cslrxyz</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">819DE38B</romCRC>
+			</files>
+			<im1CRC>00C14EB1</im1CRC>
+			<im2CRC>666BEE0C</im2CRC>
+			<comment>Ransei no Hasha (Japan) [CHT]</comment>
+			<duplicateID>75</duplicateID>
+		</game>
+		<game>
+			<imageNumber>77</imageNumber>
+			<releaseNumber>77</releaseNumber>
+			<title>港都少年 (简)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Renovation</publisher>
+			<location>1</location>
+			<sourceRom>永盛</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">D320D5D3</romCRC>
+			</files>
+			<im1CRC>8B0AF273</im1CRC>
+			<im2CRC>E9C00FBB</im2CRC>
+			<comment>Traysia (USA) [CHS]</comment>
+			<duplicateID>77</duplicateID>
+		</game>
+		<game>
+			<imageNumber>78</imageNumber>
+			<releaseNumber>78</releaseNumber>
+			<title>特殊部队357 (简)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Masaya</publisher>
+			<location>7</location>
+			<sourceRom>147201688</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">8C61F7C4</romCRC>
+			</files>
+			<im1CRC>877FCAB8</im1CRC>
+			<im2CRC>132EADB7</im2CRC>
+			<comment>Vixen 357 (Japan) [CHS]</comment>
+			<duplicateID>78</duplicateID>
+		</game>
+		<game>
+			<imageNumber>79</imageNumber>
+			<releaseNumber>79</releaseNumber>
+			<title>特殊部队357 (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Masaya</publisher>
+			<location>7</location>
+			<sourceRom>永盛</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">79CD5F9F</romCRC>
+			</files>
+			<im1CRC>877FCAB8</im1CRC>
+			<im2CRC>4EC745BA</im2CRC>
+			<comment>Vixen 357 (Japan) [CHT]</comment>
+			<duplicateID>78</duplicateID>
+		</game>
+		<game>
+			<imageNumber>80</imageNumber>
+			<releaseNumber>80</releaseNumber>
+			<title>世界职棒争霸战 (繁)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>全崴资讯</publisher>
+			<location>3</location>
+			<sourceRom>全崴资讯</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">72DD884F</romCRC>
+			</files>
+			<im1CRC>4934A48A</im1CRC>
+			<im2CRC>C27E3DF9</im2CRC>
+			<comment>Shi Jie Zhi Bang Zheng Ba Zhan - World Pro Baseball 94 (China) (Unl) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>81</imageNumber>
+			<releaseNumber>81</releaseNumber>
+			<title>悟空外传 (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Ming Technology</publisher>
+			<location>3</location>
+			<sourceRom>147201688</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">6E654389</romCRC>
+			</files>
+			<im1CRC>C345168F</im1CRC>
+			<im2CRC>0D16E40A</im2CRC>
+			<comment>Wu Kong Wai Zhuan (China) (Unl) [CHS]</comment>
+			<duplicateID>81</duplicateID>
+		</game>
+		<game>
+			<imageNumber>82</imageNumber>
+			<releaseNumber>82</releaseNumber>
+			<title>悟空外传 (繁)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Ming Technology</publisher>
+			<location>3</location>
+			<sourceRom>三协资讯</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">880A916E</romCRC>
+			</files>
+			<im1CRC>32A73016</im1CRC>
+			<im2CRC>57AC38DB</im2CRC>
+			<comment>Wu Kong Wai Zhuan (China) (Unl) [CHT]</comment>
+			<duplicateID>81</duplicateID>
+		</game>
+		<game>
+			<imageNumber>83</imageNumber>
+			<releaseNumber>83</releaseNumber>
+			<title>野蛇方块 (简菜单)</title>
+			<saveType></saveType>
+			<romSize>524288</romSize>
+			<publisher>Spectrum Holobyte</publisher>
+			<location>1</location>
+			<sourceRom>小鬼混</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">C3B7785C</romCRC>
+			</files>
+			<im1CRC>7072FC9E</im1CRC>
+			<im2CRC>71F3F92D</im2CRC>
+			<comment>Wild Snake (USA) (Proto) [Menu CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>84</imageNumber>
+			<releaseNumber>84</releaseNumber>
+			<title>新乞丐王子 (繁)</title>
+			<saveType></saveType>
+			<romSize>4194304</romSize>
+			<publisher>全崴资讯</publisher>
+			<location>3</location>
+			<sourceRom>全崴资讯</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">DD2F38B5</romCRC>
+			</files>
+			<im1CRC>65C46404</im1CRC>
+			<im2CRC>31A5D3B7</im2CRC>
+			<comment>Xin Qi Gai Wang Zi (China) (Unl) [CHT]</comment>
+			<duplicateID>84</duplicateID>
+		</game>
+		<game>
+			<imageNumber>85</imageNumber>
+			<releaseNumber>85</releaseNumber>
+			<title>帝国皇朝 - 亚瑟传说 (修正版) (繁)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Ming Super Chip</publisher>
+			<location>3</location>
+			<sourceRom>Ken</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">359CB75A</romCRC>
+			</files>
+			<im1CRC>5FB9F3B4</im1CRC>
+			<im2CRC>A5C46E98</im2CRC>
+			<comment>Ya Se Chuan Shuo (China) (Unl) (Fix) [CHT]</comment>
+			<duplicateID>85</duplicateID>
+		</game>
+		<game>
+			<imageNumber>86</imageNumber>
+			<releaseNumber>86</releaseNumber>
+			<title>一门英杰 - 杨家将 (繁)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>三协资讯</publisher>
+			<location>3</location>
+			<sourceRom>三协资讯</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">6604A79E</romCRC>
+			</files>
+			<im1CRC>EEBA805E</im1CRC>
+			<im2CRC>D3A9001F</im2CRC>
+			<comment>Yang Jia Jiang - Yang Warrior Family (China) (Unl) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>87</imageNumber>
+			<releaseNumber>87</releaseNumber>
+			<title>幽游白书 - 魔强统一战 (简)</title>
+			<saveType></saveType>
+			<romSize>3145728</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>模拟天下</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">3AFFA6CC</romCRC>
+			</files>
+			<im1CRC>62726915</im1CRC>
+			<im2CRC>985E5558</im2CRC>
+			<comment>Yu Yu Hakusho - Makyou Toitsusen (Japan) [CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>88</imageNumber>
+			<releaseNumber>88</releaseNumber>
+			<title>抓鬼大师 (繁)</title>
+			<saveType></saveType>
+			<romSize>524288</romSize>
+			<publisher>盛碁科技</publisher>
+			<location>3</location>
+			<sourceRom>盛碁科技</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">76C62A8B</romCRC>
+			</files>
+			<im1CRC>57B0BE87</im1CRC>
+			<im2CRC>EFDFA987</im2CRC>
+			<comment>Zhuo Gui Da Shi - Ghost Hunter (China) (Unl) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>89</imageNumber>
+			<releaseNumber>89</releaseNumber>
+			<title>零风战机 (简)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Toaplan</publisher>
+			<location>7</location>
+			<sourceRom>熊组</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">7218212F</romCRC>
+			</files>
+			<im1CRC>CDB13765</im1CRC>
+			<im2CRC>B66BE0B6</im2CRC>
+			<comment>Zero Wing (Japan) [CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>90</imageNumber>
+			<releaseNumber>90</releaseNumber>
+			<title>花木兰 (繁)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>X Boy</publisher>
+			<location>3</location>
+			<sourceRom>三协资讯</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">796882B8</romCRC>
+			</files>
+			<im1CRC>B635D576</im1CRC>
+			<im2CRC>F1445EA2</im2CRC>
+			<comment>Hua Mu Lan - Mulan (China) (Unl) [CHT]</comment>
+			<duplicateID>90</duplicateID>
+		</game>
+		<game>
+			<imageNumber>91</imageNumber>
+			<releaseNumber>91</releaseNumber>
+			<title>扑克俱乐部 (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>圣谦</publisher>
+			<location>3</location>
+			<sourceRom>圣谦</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">AE28D9EB</romCRC>
+			</files>
+			<im1CRC>1EC9B6A0</im1CRC>
+			<im2CRC>7BA28919</im2CRC>
+			<comment>Queen Of Poke (China) (Unl) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>92</imageNumber>
+			<releaseNumber>92</releaseNumber>
+			<title>疯狂鼓手皮卡丘 (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Tomsoft</publisher>
+			<location>3</location>
+			<sourceRom>Tomsoft</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">8838A25D</romCRC>
+			</files>
+			<im1CRC>37AAA40A</im1CRC>
+			<im2CRC>CCD0614A</im2CRC>
+			<comment>Pokemon Crazy Drummer (China) (Unl) [CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>93</imageNumber>
+			<releaseNumber>93</releaseNumber>
+			<title>悟空外传 (修正版) (繁)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Ming Technology</publisher>
+			<location>3</location>
+			<sourceRom>Ken</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">C82AB3A9</romCRC>
+			</files>
+			<im1CRC>DB4D6D9D</im1CRC>
+			<im2CRC>CA3E0EA0</im2CRC>
+			<comment>Wu Kong Wai Zhuan (China) (Unl) (Fix) [CHT]</comment>
+			<duplicateID>81</duplicateID>
+		</game>
+		<game>
+			<imageNumber>94</imageNumber>
+			<releaseNumber>94</releaseNumber>
+			<title>帝国皇朝 - 亚瑟传说 (繁)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Ming Super Chip</publisher>
+			<location>3</location>
+			<sourceRom>川普科技</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">095B9A15</romCRC>
+			</files>
+			<im1CRC>8997CDC3</im1CRC>
+			<im2CRC>B9E26788</im2CRC>
+			<comment>Ya Se Chuan Shuo (China) (Unl) [CHT]</comment>
+			<duplicateID>85</duplicateID>
+		</game>
+		<game>
+			<imageNumber>95</imageNumber>
+			<releaseNumber>95</releaseNumber>
+			<title>梦幻之星4 - 千年纪的终结 (v1.0b) (简)</title>
+			<saveType></saveType>
+			<romSize>4194304</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>Phanteam</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">EF9F9C50</romCRC>
+			</files>
+			<im1CRC>363392EF</im1CRC>
+			<im2CRC>A72E2BB2</im2CRC>
+			<comment>Phantasy Star - Sennenki no Owari ni (Japan) (v1.0b) [CHS]</comment>
+			<duplicateID>95</duplicateID>
+		</game>
+		<game>
+			<imageNumber>96</imageNumber>
+			<releaseNumber>96</releaseNumber>
+			<title>梦幻之星4 - 千年纪的终结 (v1.1) (收费版) (简)</title>
+			<saveType></saveType>
+			<romSize>3670016</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>意志之路</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">78BA95D6</romCRC>
+			</files>
+			<im1CRC>497E7522</im1CRC>
+			<im2CRC>46D7CEDC</im2CRC>
+			<comment>Phantasy Star - Sennenki no Owari ni (Japan) (v1.1) (sale version) [CHS]</comment>
+			<duplicateID>95</duplicateID>
+		</game>
+		<game>
+			<imageNumber>97</imageNumber>
+			<releaseNumber>97</releaseNumber>
+			<title>水浒传 (繁)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>川普科技</publisher>
+			<location>3</location>
+			<sourceRom>川普科技</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">61E458C3</romCRC>
+			</files>
+			<im1CRC>2211F219</im1CRC>
+			<im2CRC>1776D2A1</im2CRC>
+			<comment>Shui Hu Zhuan (China) (Unl) [CHT]</comment>
+			<duplicateID>70</duplicateID>
+		</game>
+		<game>
+			<imageNumber>98</imageNumber>
+			<releaseNumber>98</releaseNumber>
+			<title>太空战士 - 魔法战士 (繁)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>川普科技</publisher>
+			<location>3</location>
+			<sourceRom>川普科技</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">D37A37C6</romCRC>
+			</files>
+			<im1CRC>D4D1825C</im1CRC>
+			<im2CRC>857508BE</im2CRC>
+			<comment>Barver Battle Saga - Tai Kong Zhan Shi (China) (Unl) [CHT]</comment>
+			<duplicateID>11</duplicateID>
+		</game>
+		<game>
+			<imageNumber>99</imageNumber>
+			<releaseNumber>99</releaseNumber>
+			<title>封神英杰传 (修正版) (繁)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>皇家科技</publisher>
+			<location>3</location>
+			<sourceRom>Ken</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">DFACB9FF</romCRC>
+			</files>
+			<im1CRC>BEF6CDCF</im1CRC>
+			<im2CRC>56CF5A2C</im2CRC>
+			<comment>Feng Shen Ying Jie Chuan (China) (Unl) (Fix) [CHT]</comment>
+			<duplicateID>32</duplicateID>
+		</game>
+		<game>
+			<imageNumber>100</imageNumber>
+			<releaseNumber>100</releaseNumber>
+			<title>大航海时代1 (简)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Koei</publisher>
+			<location>7</location>
+			<sourceRom>cslrxyz</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">12CC797A</romCRC>
+			</files>
+			<im1CRC>F07DABDD</im1CRC>
+			<im2CRC>61E7567B</im2CRC>
+			<comment>Daikoukai Jidai (Japan) [CHS]</comment>
+			<duplicateID>19</duplicateID>
+		</game>
+		<game>
+			<imageNumber>101</imageNumber>
+			<releaseNumber>101</releaseNumber>
+			<title>三国志3 (v20120825) (修正版) (简)</title>
+			<saveType></saveType>
+			<romSize>1572864</romSize>
+			<publisher>Koei</publisher>
+			<location>7</location>
+			<sourceRom>小鬼混</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">02DB002D</romCRC>
+			</files>
+			<im1CRC>688B46EA</im1CRC>
+			<im2CRC>F9ABAE45</im2CRC>
+			<comment>Sangokushi III (Japan) (v20120825) [CHS]</comment>
+			<duplicateID>50</duplicateID>
+		</game>
+		<game>
+			<imageNumber>102</imageNumber>
+			<releaseNumber>102</releaseNumber>
+			<title>魔导物语 (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Compile</publisher>
+			<location>7</location>
+			<sourceRom>小鬼混</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">89F78523</romCRC>
+			</files>
+			<im1CRC>59466266</im1CRC>
+			<im2CRC>D4E71A42</im2CRC>
+			<comment>Madou Monogatari I (Japan) [CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>103</imageNumber>
+			<releaseNumber>103</releaseNumber>
+			<title>超级街头霸王2 - 未解决 (简)</title>
+			<saveType></saveType>
+			<romSize>5242880</romSize>
+			<publisher>Capcom</publisher>
+			<location>1</location>
+			<sourceRom>小鬼混</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">9A341F19</romCRC>
+			</files>
+			<im1CRC>2662BD58</im1CRC>
+			<im2CRC>31FE27E5</im2CRC>
+			<comment>Super Street Fighter II - The New Challengers (USA) [H] [CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>104</imageNumber>
+			<releaseNumber>104</releaseNumber>
+			<title>冒险小子 (繁)</title>
+			<saveType></saveType>
+			<romSize>524288</romSize>
+			<publisher>三协资讯</publisher>
+			<location>3</location>
+			<sourceRom>三协资讯</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">D4403913</romCRC>
+			</files>
+			<im1CRC>04FD229A</im1CRC>
+			<im2CRC>B0F7676D</im2CRC>
+			<comment>Adventurous Boy - Mao Xian Xiao Zi (China) (Unl) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>105</imageNumber>
+			<releaseNumber>105</releaseNumber>
+			<title>欢乐淘气鼠 (繁)</title>
+			<saveType></saveType>
+			<romSize>524288</romSize>
+			<publisher>Ming Super Chip</publisher>
+			<location>3</location>
+			<sourceRom>川普科技</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">DECDF740</romCRC>
+			</files>
+			<im1CRC>0DCC47F4</im1CRC>
+			<im2CRC>36998810</im2CRC>
+			<comment>Huan Le Tao Qi Shu - Smart Mouse (China) (Unl) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>106</imageNumber>
+			<releaseNumber>106</releaseNumber>
+			<title>新乞丐王子 (修正版) (繁)</title>
+			<saveType></saveType>
+			<romSize>4194304</romSize>
+			<publisher>全崴资讯</publisher>
+			<location>3</location>
+			<sourceRom>小鬼混</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">E1A55A41</romCRC>
+			</files>
+			<im1CRC>008536A4</im1CRC>
+			<im2CRC>2793B6B5</im2CRC>
+			<comment>Xin Qi Gai Wang Zi (China) (Unl) (Fix) [CHT]</comment>
+			<duplicateID>84</duplicateID>
+		</game>
+		<game>
+			<imageNumber>107</imageNumber>
+			<releaseNumber>107</releaseNumber>
+			<title>光明与黑暗 (修正版) (繁)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>SONIC3D</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">85320AD1</romCRC>
+			</files>
+			<im1CRC>56B91378</im1CRC>
+			<im2CRC>29E8C754</im2CRC>
+			<comment>Shining and the Darkness (Japan) (Fix) [CHT]</comment>
+			<duplicateID>48</duplicateID>
+		</game>
+		<game>
+			<imageNumber>108</imageNumber>
+			<releaseNumber>108</releaseNumber>
+			<title>梦幻之星3 - 时之继承者 (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>永盛</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">0DE4590C</romCRC>
+			</files>
+			<im1CRC>7820F28E</im1CRC>
+			<im2CRC>15B2FF2E</im2CRC>
+			<comment>Phantasy Star III - Toki no Keishousha (Japan) [CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>109</imageNumber>
+			<releaseNumber>109</releaseNumber>
+			<title>梦幻之星4 - 千年纪的终结 (v1.3) (共享版) (简)</title>
+			<saveType></saveType>
+			<romSize>3670016</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>意志之路</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">0ACDAFF4</romCRC>
+			</files>
+			<im1CRC>CEFC4071</im1CRC>
+			<im2CRC>B83061E1</im2CRC>
+			<comment>Phantasy Star - Sennenki no Owari ni (Japan) (v1.3) (free version) [CHS]</comment>
+			<duplicateID>95</duplicateID>
+		</game>
+		<game>
+			<imageNumber>110</imageNumber>
+			<releaseNumber>110</releaseNumber>
+			<title>龙 (繁)</title>
+			<saveType></saveType>
+			<romSize>262144</romSize>
+			<publisher>松玲</publisher>
+			<location>3</location>
+			<sourceRom>松玲</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">1B86E623</romCRC>
+			</files>
+			<im1CRC>ECF346FC</im1CRC>
+			<im2CRC>50EA273A</im2CRC>
+			<comment>Long (China) (Unl) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>111</imageNumber>
+			<releaseNumber>111</releaseNumber>
+			<title>灵幻道士 (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Ming Super Chip</publisher>
+			<location>3</location>
+			<sourceRom>三协资讯</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">E24AC6B2</romCRC>
+			</files>
+			<im1CRC>41E58CE9</im1CRC>
+			<im2CRC>A0891C00</im2CRC>
+			<comment>Elf Wor (China) (Unl) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>112</imageNumber>
+			<releaseNumber>112</releaseNumber>
+			<title>姬麻将之麻将情人 (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>松诠资讯</publisher>
+			<location>3</location>
+			<sourceRom>松诠资讯</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">DDD02BA4</romCRC>
+			</files>
+			<im1CRC>3B338485</im1CRC>
+			<im2CRC>507A0481</im2CRC>
+			<comment>Ma Jiang Qing Ren - Ji Ma Jiang Zhi (China) (Unl) [CHT]</comment>
+			<duplicateID>112</duplicateID>
+		</game>
+		<game>
+			<imageNumber>113</imageNumber>
+			<releaseNumber>113</releaseNumber>
+			<title>联合前线 (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>cslrxyz</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">0D6D06F6</romCRC>
+			</files>
+			<im1CRC>285783C9</im1CRC>
+			<im2CRC>68A4A9ED</im2CRC>
+			<comment>Hybrid Front, The (Japan) [CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>114</imageNumber>
+			<releaseNumber>114</releaseNumber>
+			<title>光明十字军 (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Sega</publisher>
+			<location>22</location>
+			<sourceRom>小鬼混</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">7C78C435</romCRC>
+			</files>
+			<im1CRC>54A6A1DE</im1CRC>
+			<im2CRC>9800B533</im2CRC>
+			<comment>Light Crusader (Korea) (En,Ko) [CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>115</imageNumber>
+			<releaseNumber>115</releaseNumber>
+			<title>太平记 (简)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>cslrxyz</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">6E781C6C</romCRC>
+			</files>
+			<im1CRC>319AD292</im1CRC>
+			<im2CRC>8F621EDA</im2CRC>
+			<comment>NHK Taiga Drama - Taiheiki (Japan) [CHS]</comment>
+			<duplicateID>115</duplicateID>
+		</game>
+		<game>
+			<imageNumber>116</imageNumber>
+			<releaseNumber>116</releaseNumber>
+			<title>太平记 (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>cslrxyz</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">19864175</romCRC>
+			</files>
+			<im1CRC>CBB0A04D</im1CRC>
+			<im2CRC>43906F0F</im2CRC>
+			<comment>NHK Taiga Drama - Taiheiki (Japan) [CHT]</comment>
+			<duplicateID>115</duplicateID>
+		</game>
+		<game>
+			<imageNumber>117</imageNumber>
+			<releaseNumber>117</releaseNumber>
+			<title>光明与黑暗 (简)</title>
+			<saveType></saveType>
+			<romSize>1572864</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>灰米等</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">D2C4A56E</romCRC>
+			</files>
+			<im1CRC>F74C33B5</im1CRC>
+			<im2CRC>15B40375</im2CRC>
+			<comment>Shining and the Darkness (Japan) [CHS]</comment>
+			<duplicateID>48</duplicateID>
+		</game>
+		<game>
+			<imageNumber>118</imageNumber>
+			<releaseNumber>118</releaseNumber>
+			<title>蒙纳克皇族 - 最终战斗传说 (宋体版) (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>cslrxyz</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">09709DCB</romCRC>
+			</files>
+			<im1CRC>8A3602B6</im1CRC>
+			<im2CRC>08D8DFC1</im2CRC>
+			<comment>Lord Monarch - Tokoton Sentou Densetsu (Japan) (Arial Font) [CHS]</comment>
+			<duplicateID>40</duplicateID>
+		</game>
+		<game>
+			<imageNumber>119</imageNumber>
+			<releaseNumber>119</releaseNumber>
+			<title>蒙纳克皇族 - 最终战斗传说 (少女体版) (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>cslrxyz</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">8ED8475C</romCRC>
+			</files>
+			<im1CRC>2A9D6E1F</im1CRC>
+			<im2CRC>B4271495</im2CRC>
+			<comment>Lord Monarch - Tokoton Sentou Densetsu (Japan) (ShaoNv Font) [CHS]</comment>
+			<duplicateID>40</duplicateID>
+		</game>
+		<game>
+			<imageNumber>120</imageNumber>
+			<releaseNumber>120</releaseNumber>
+			<title>蒙纳克皇族 - 最终战斗传说 (繁)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>cslrxyz</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">F1649580</romCRC>
+			</files>
+			<im1CRC>F7E26B2B</im1CRC>
+			<im2CRC>9F8A89CD</im2CRC>
+			<comment>Lord Monarch - Tokoton Sentou Densetsu (Japan) [CHT]</comment>
+			<duplicateID>40</duplicateID>
+		</game>
+		<game>
+			<imageNumber>121</imageNumber>
+			<releaseNumber>121</releaseNumber>
+			<title>蒙纳克皇族 - 最终战斗传说 (修正版) (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>小鬼混</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">6C825910</romCRC>
+			</files>
+			<im1CRC>583D49A2</im1CRC>
+			<im2CRC>C38EFDCA</im2CRC>
+			<comment>Lord Monarch - Tokoton Sentou Densetsu (Japan) (Fix) [CHS]</comment>
+			<duplicateID>40</duplicateID>
+		</game>
+		<game>
+			<imageNumber>122</imageNumber>
+			<releaseNumber>122</releaseNumber>
+			<title>蒙纳克皇族 - 最终战斗传说 (简)</title>
+			<saveType></saveType>
+			<romSize>3145728</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>永盛</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">75D2E54D</romCRC>
+			</files>
+			<im1CRC>7DE4624E</im1CRC>
+			<im2CRC>02B042F3</im2CRC>
+			<comment>Lord Monarch - Tokoton Sentou Densetsu (Japan) [CHS]</comment>
+			<duplicateID>40</duplicateID>
+		</game>
+		<game>
+			<imageNumber>123</imageNumber>
+			<releaseNumber>123</releaseNumber>
+			<title>七龙珠 - 超武斗会完结篇 (繁)</title>
+			<saveType></saveType>
+			<romSize>3145728</romSize>
+			<publisher>生存实业</publisher>
+			<location>3</location>
+			<sourceRom>生存实业</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">AAB25415</romCRC>
+			</files>
+			<im1CRC>71AB5076</im1CRC>
+			<im2CRC>2F663C73</im2CRC>
+			<comment>Dragon Ball - Final Bout (China) (Unl) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>124</imageNumber>
+			<releaseNumber>124</releaseNumber>
+			<title>超级忍2 (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>小铭</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">3EED3067</romCRC>
+			</files>
+			<im1CRC>87ADA5E4</im1CRC>
+			<im2CRC>49B42039</im2CRC>
+			<comment>Super Shinobi II, The (Japan) [CHT]</comment>
+			<duplicateID>53</duplicateID>
+		</game>
+		<game>
+			<imageNumber>125</imageNumber>
+			<releaseNumber>125</releaseNumber>
+			<title>皇帝的财宝 - 秘境魔宝 (繁)</title>
+			<saveType></saveType>
+			<romSize>2293760</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>小铭</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">5FB3EECE</romCRC>
+			</files>
+			<im1CRC>E21FC358</im1CRC>
+			<im2CRC>C28E9EA6</im2CRC>
+			<comment>Landstalker - Koutei no Zaihou (Japan) [CHT]</comment>
+			<duplicateID>36</duplicateID>
+		</game>
+		<game>
+			<imageNumber>126</imageNumber>
+			<releaseNumber>126</releaseNumber>
+			<title>梦幻之星4 - 千年纪的终结 (繁)</title>
+			<saveType></saveType>
+			<romSize>3670016</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>小铭</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">11AC03D3</romCRC>
+			</files>
+			<im1CRC>9738CE9E</im1CRC>
+			<im2CRC>6F1280D5</im2CRC>
+			<comment>Phantasy Star - Sennenki no Owari ni (Japan) [CHT]</comment>
+			<duplicateID>95</duplicateID>
+		</game>
+		<game>
+			<imageNumber>127</imageNumber>
+			<releaseNumber>127</releaseNumber>
+			<title>澎湃的电风 (简)</title>
+			<saveType></saveType>
+			<romSize>2359296</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>意志之路</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">38A17FD0</romCRC>
+			</files>
+			<im1CRC>FE4D3536</im1CRC>
+			<im2CRC>C86135EA</im2CRC>
+			<comment>Surging Aura (Japan) [CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>128</imageNumber>
+			<releaseNumber>128</releaseNumber>
+			<title>孔雀王2 - 幻影城 (简)</title>
+			<saveType></saveType>
+			<romSize>524288</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>永盛</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">E5715AD5</romCRC>
+			</files>
+			<im1CRC>D79D55C6</im1CRC>
+			<im2CRC>F1B08984</im2CRC>
+			<comment>Kujaku Ou 2 - Geneijou (Japan) [CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>129</imageNumber>
+			<releaseNumber>129</releaseNumber>
+			<title>怪物世界4 (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>小鬼混</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">B206B344</romCRC>
+			</files>
+			<im1CRC>42EE0919</im1CRC>
+			<im2CRC>066A0584</im2CRC>
+			<comment>Monster World IV (Japan) [CHS]</comment>
+			<duplicateID>129</duplicateID>
+		</game>
+		<game>
+			<imageNumber>130</imageNumber>
+			<releaseNumber>130</releaseNumber>
+			<title>航空霸业2 (简)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Koei</publisher>
+			<location>1</location>
+			<sourceRom>SONIC3D</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">6609A5B8</romCRC>
+			</files>
+			<im1CRC>06F2B3F5</im1CRC>
+			<im2CRC>15DFB86A</im2CRC>
+			<comment>Aerobiz Supersonic (USA) [CHS]</comment>
+			<duplicateID>4</duplicateID>
+		</game>
+		<game>
+			<imageNumber>131</imageNumber>
+			<releaseNumber>131</releaseNumber>
+			<title>梦幻之星2 - 不归的终点 (修正版) (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Sega</publisher>
+			<location>16</location>
+			<sourceRom>小鬼混</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">23AC576D</romCRC>
+			</files>
+			<im1CRC>A3AE0314</im1CRC>
+			<im2CRC>487596F9</im2CRC>
+			<comment>Phantasy Star II (USA, Europe) (Rev A) (Fix) [CHT]</comment>
+			<duplicateID>47</duplicateID>
+		</game>
+		<game>
+			<imageNumber>132</imageNumber>
+			<releaseNumber>132</releaseNumber>
+			<title>巫术神界 (修正版) (简)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Treco</publisher>
+			<location>1</location>
+			<sourceRom>小鬼混</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">BC5DE3AC</romCRC>
+			</files>
+			<im1CRC>3D898060</im1CRC>
+			<im2CRC>22E704B3</im2CRC>
+			<comment>Sorcerer's Kingdom (USA) (v1.1) (Fix) [CHS]</comment>
+			<duplicateID>65</duplicateID>
+		</game>
+		<game>
+			<imageNumber>133</imageNumber>
+			<releaseNumber>133</releaseNumber>
+			<title>时空异变 (修正版) (简)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Renovation</publisher>
+			<location>1</location>
+			<sourceRom>小鬼混</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">E7564387</romCRC>
+			</files>
+			<im1CRC>CD514EC7</im1CRC>
+			<im2CRC>B665D839</im2CRC>
+			<comment>Exile (USA) (Fix) [CHS]</comment>
+			<duplicateID>27</duplicateID>
+		</game>
+		<game>
+			<imageNumber>134</imageNumber>
+			<releaseNumber>134</releaseNumber>
+			<title>港都少年 (修正版) (简)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Renovation</publisher>
+			<location>1</location>
+			<sourceRom>小鬼混</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">41A0B5BD</romCRC>
+			</files>
+			<im1CRC>8B0AF273</im1CRC>
+			<im2CRC>1CC4C95A</im2CRC>
+			<comment>Traysia (USA) (Fix) [CHS]</comment>
+			<duplicateID>77</duplicateID>
+		</game>
+		<game>
+			<imageNumber>135</imageNumber>
+			<releaseNumber>135</releaseNumber>
+			<title>格斗王 (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>X Boy</publisher>
+			<location>3</location>
+			<sourceRom>未知</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">174DEFE6</romCRC>
+			</files>
+			<im1CRC>945CD7AC</im1CRC>
+			<im2CRC>2FFE9310</im2CRC>
+			<comment>Top Fighter 2005 (China) (Unl) [CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>136</imageNumber>
+			<releaseNumber>136</releaseNumber>
+			<title>忍者武雷传说 (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>永盛</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">107CBF61</romCRC>
+			</files>
+			<im1CRC>289C1809</im1CRC>
+			<im2CRC>9699E0DF</im2CRC>
+			<comment>Ninja Burai Densetsu (Japan) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>137</imageNumber>
+			<releaseNumber>137</releaseNumber>
+			<title>三国志2 (v20120913) (修正版) (简)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Koei</publisher>
+			<location>7</location>
+			<sourceRom>小鬼混</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">BFFB9961</romCRC>
+			</files>
+			<im1CRC>32CC7504</im1CRC>
+			<im2CRC>C487184B</im2CRC>
+			<comment>Sangokushi II (Japan) (v20120913) [CHS]</comment>
+			<duplicateID>49</duplicateID>
+		</game>
+		<game>
+			<imageNumber>138</imageNumber>
+			<releaseNumber>138</releaseNumber>
+			<title>轰炸小子 (繁)</title>
+			<saveType></saveType>
+			<romSize>524288</romSize>
+			<publisher>三协资讯</publisher>
+			<location>3</location>
+			<sourceRom>三协资讯</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">065D2019</romCRC>
+			</files>
+			<im1CRC>C4EA70C4</im1CRC>
+			<im2CRC>6D64A1BE</im2CRC>
+			<comment>Bomboy (China) (Unl) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>139</imageNumber>
+			<releaseNumber>139</releaseNumber>
+			<title>花木兰 (修正版) (繁)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>X Boy</publisher>
+			<location>3</location>
+			<sourceRom>Azathoth</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">4F04783E</romCRC>
+			</files>
+			<im1CRC>B635D576</im1CRC>
+			<im2CRC>63384C45</im2CRC>
+			<comment>Hua Mu Lan - Mulan (China) (Unl) (Fix) [CHT]</comment>
+			<duplicateID>90</duplicateID>
+		</game>
+		<game>
+			<imageNumber>140</imageNumber>
+			<releaseNumber>140</releaseNumber>
+			<title>斩-夜叉圆舞曲 (简)</title>
+			<saveType></saveType>
+			<romSize>524288</romSize>
+			<publisher>Wolf Team</publisher>
+			<location>7</location>
+			<sourceRom>cslrxyz</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">F892837E</romCRC>
+			</files>
+			<im1CRC>3BE329BE</im1CRC>
+			<im2CRC>AD518E82</im2CRC>
+			<comment>Zan Yasha Enbukyoku (Japan) [CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>141</imageNumber>
+			<releaseNumber>141</releaseNumber>
+			<title>封神英杰传 (修正版) (繁)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>皇家科技</publisher>
+			<location>3</location>
+			<sourceRom>小鬼混</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">24DA13D0</romCRC>
+			</files>
+			<im1CRC>FF1435CF</im1CRC>
+			<im2CRC>D1E9C730</im2CRC>
+			<comment>Feng Shen Ying Jie Chuan (China) (Unl) (Fix) [CHT]</comment>
+			<duplicateID>32</duplicateID>
+		</game>
+		<game>
+			<imageNumber>142</imageNumber>
+			<releaseNumber>142</releaseNumber>
+			<title>姬麻将之麻将情人 (修正版) (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>松诠资讯</publisher>
+			<location>3</location>
+			<sourceRom>Nemesis_c</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">F6C2CFF2</romCRC>
+			</files>
+			<im1CRC>15E12BE0</im1CRC>
+			<im2CRC>6830E911</im2CRC>
+			<comment>Ma Jiang Qing Ren - Ji Ma Jiang Zhi (China) (Unl) (Fix) [CHT]</comment>
+			<duplicateID>112</duplicateID>
+		</game>
+		<game>
+			<imageNumber>143</imageNumber>
+			<releaseNumber>143</releaseNumber>
+			<title>太空战士 - 魔法战士 (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>川普科技</publisher>
+			<location>3</location>
+			<sourceRom>九班</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">D9C6FE89</romCRC>
+			</files>
+			<im1CRC>1F72C7AF</im1CRC>
+			<im2CRC>D8BBA337</im2CRC>
+			<comment>Barver Battle Saga - Tai Kong Zhan Shi (China) (Unl) [CHS]</comment>
+			<duplicateID>11</duplicateID>
+		</game>
+		<game>
+			<imageNumber>144</imageNumber>
+			<releaseNumber>144</releaseNumber>
+			<title>盟军敢死队 (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Glory Sun</publisher>
+			<location>3</location>
+			<sourceRom>Dragon</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">9E97C9B2</romCRC>
+			</files>
+			<im1CRC>39A5F5E0</im1CRC>
+			<im2CRC>1AA8C296</im2CRC>
+			<comment>Commandos (China) (Unl) [CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>145</imageNumber>
+			<releaseNumber>145</releaseNumber>
+			<title>超级大富翁 (修正版) (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>三协资讯</publisher>
+			<location>3</location>
+			<sourceRom>Ken</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">597D5C23</romCRC>
+			</files>
+			<im1CRC>FA53EA30</im1CRC>
+			<im2CRC>149A272C</im2CRC>
+			<comment>Chao Ji Da Fu Weng (China) (Unl) (Fix) [CHT]</comment>
+			<duplicateID>54</duplicateID>
+		</game>
+		<game>
+			<imageNumber>146</imageNumber>
+			<releaseNumber>146</releaseNumber>
+			<title>十六张麻将2 (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>City Man</publisher>
+			<location>3</location>
+			<sourceRom>松诠资讯</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">EB88026D</romCRC>
+			</files>
+			<im1CRC>EF0E1050</im1CRC>
+			<im2CRC>3CAC805E</im2CRC>
+			<comment>16 Tiles Mahjong II (China) (Unl) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>147</imageNumber>
+			<releaseNumber>147</releaseNumber>
+			<title>赌神之梦幻扑克 (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>松诠资讯</publisher>
+			<location>3</location>
+			<sourceRom>松诠资讯</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">1D81A67C</romCRC>
+			</files>
+			<im1CRC>F1A4CB51</im1CRC>
+			<im2CRC>9128BEB0</im2CRC>
+			<comment>Super Majon Club (China) (Unl) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>148</imageNumber>
+			<releaseNumber>148</releaseNumber>
+			<title>热血高校躲避球部 - 足球篇 (简)</title>
+			<saveType></saveType>
+			<romSize>1392768</romSize>
+			<publisher>PALSOFT</publisher>
+			<location>7</location>
+			<sourceRom>AXI</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">E035661F</romCRC>
+			</files>
+			<im1CRC>171E7F76</im1CRC>
+			<im2CRC>D7549550</im2CRC>
+			<comment>Nekketsu Koukou Dodgeball-bu - Soccer Hen MD (Japan) [CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>149</imageNumber>
+			<releaseNumber>149</releaseNumber>
+			<title>梦幻模拟战2 (v2.0) (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Masaya</publisher>
+			<location>7</location>
+			<sourceRom>狼组&amp;皇家禁卫军利昂</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">45BAC6CD</romCRC>
+			</files>
+			<im1CRC>B76660EC</im1CRC>
+			<im2CRC>CF3646D9</im2CRC>
+			<comment>Langrisser II (Japan) (v2.0) [CHS]</comment>
+			<duplicateID>38</duplicateID>
+		</game>
+		<game>
+			<imageNumber>150</imageNumber>
+			<releaseNumber>150</releaseNumber>
+			<title>梦幻模拟战2 (v1.0) (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Masaya</publisher>
+			<location>7</location>
+			<sourceRom>狼组&amp;星空</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">260BF672</romCRC>
+			</files>
+			<im1CRC>ABE9365F</im1CRC>
+			<im2CRC>B0B7777A</im2CRC>
+			<comment>Langrisser II (Japan) (v1.0) [CHS]</comment>
+			<duplicateID>38</duplicateID>
+		</game>
+		<game>
+			<imageNumber>151</imageNumber>
+			<releaseNumber>151</releaseNumber>
+			<title>超级扑克 (繁)</title>
+			<saveType></saveType>
+			<romSize>4194304</romSize>
+			<publisher>未知</publisher>
+			<location>3</location>
+			<sourceRom>未知</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">08275694</romCRC>
+			</files>
+			<im1CRC>BD0FBF58</im1CRC>
+			<im2CRC>A0127B12</im2CRC>
+			<comment>Super Poker (China) (Unl) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>152</imageNumber>
+			<releaseNumber>152</releaseNumber>
+			<title>新石中剑 (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Sega</publisher>
+			<location>16</location>
+			<sourceRom>永盛</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">A94976ED</romCRC>
+			</files>
+			<im1CRC>A9A7F1F0</im1CRC>
+			<im2CRC>7FC782D8</im2CRC>
+			<comment>Sword of Vermilion (USA, Europe) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>153</imageNumber>
+			<releaseNumber>153</releaseNumber>
+			<title>伊苏3 (简)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Sega</publisher>
+			<location>1</location>
+			<sourceRom>永盛</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">3C29E621</romCRC>
+			</files>
+			<im1CRC>DE34200E</im1CRC>
+			<im2CRC>648AD7A0</im2CRC>
+			<comment>Ys III (USA) [CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>154</imageNumber>
+			<releaseNumber>154</releaseNumber>
+			<title>皇室血裔 (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Koei</publisher>
+			<location>7</location>
+			<sourceRom>永盛</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">429FAF0A</romCRC>
+			</files>
+			<im1CRC>BACBF356</im1CRC>
+			<im2CRC>C5A61975</im2CRC>
+			<comment>Royal Blood (Japan) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>155</imageNumber>
+			<releaseNumber>155</releaseNumber>
+			<title>超级麻将俱乐部 (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>松诠资讯</publisher>
+			<location>3</location>
+			<sourceRom>松诠资讯</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">62D50C4F</romCRC>
+			</files>
+			<im1CRC>2E3726C2</im1CRC>
+			<im2CRC>92878A40</im2CRC>
+			<comment>Super Majiang Club (China) (Unl) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>156</imageNumber>
+			<releaseNumber>156</releaseNumber>
+			<title>超级大富豪 (繁)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>未知</publisher>
+			<location>3</location>
+			<sourceRom>未知</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">0CACD325</romCRC>
+			</files>
+			<im1CRC>1E0D5637</im1CRC>
+			<im2CRC>A9A103DE</im2CRC>
+			<comment>Top Billionaire (China) (Unl) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>157</imageNumber>
+			<releaseNumber>157</releaseNumber>
+			<title>战棊 (繁)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>松诠资讯</publisher>
+			<location>3</location>
+			<sourceRom>松诠资讯</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">9D3DDE48</romCRC>
+			</files>
+			<im1CRC>D623723A</im1CRC>
+			<im2CRC>24A41E66</im2CRC>
+			<comment>Chinese Battle Chess (China) (Unl) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>158</imageNumber>
+			<releaseNumber>158</releaseNumber>
+			<title>斗技王 (简)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>永盛</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">53EA0F67</romCRC>
+			</files>
+			<im1CRC>DCC33402</im1CRC>
+			<im2CRC>071E1569</im2CRC>
+			<comment>Tougiou King Colossus (Japan) [CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>159</imageNumber>
+			<releaseNumber>159</releaseNumber>
+			<title>新梦幻仙境 (简)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Seismic</publisher>
+			<location>1</location>
+			<sourceRom>永盛</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">F927BC2B</romCRC>
+			</files>
+			<im1CRC>BDD50A6A</im1CRC>
+			<im2CRC>5CFD5FDF</im2CRC>
+			<comment>Super Hydlide (USA) [CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+
+		<game>
+			<imageNumber>160</imageNumber>
+			<releaseNumber>160</releaseNumber>
+			<title>独立战争 (繁)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Koei</publisher>
+			<location>1</location>
+			<sourceRom>永盛</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">17D108ED</romCRC>
+			</files>
+			<im1CRC>68B10DD6</im1CRC>
+			<im2CRC>2216929F</im2CRC>
+			<comment>Liberty or Death (USA) [CHT]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>161</imageNumber>
+			<releaseNumber>161</releaseNumber>
+			<title>火枪英雄 (修正版) (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>永盛</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">A046C36E</romCRC>
+			</files>
+			<im1CRC>AFB7135E</im1CRC>
+			<im2CRC>D22CA5D7</im2CRC>
+			<comment>Gunstar Heroes (Japan) (Fix) [CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>162</imageNumber>
+			<releaseNumber>162</releaseNumber>
+			<title>太平洋争霸战 (简)</title>
+			<saveType></saveType>
+			<romSize>4194304</romSize>
+			<publisher>Koei</publisher>
+			<location>7</location>
+			<sourceRom>永盛</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">FC12D5C5</romCRC>
+			</files>
+			<im1CRC>389345A8</im1CRC>
+			<im2CRC>49DD0E4F</im2CRC>
+			<comment>Teitoku no Ketsudan (Japan) [CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>163</imageNumber>
+			<releaseNumber>163</releaseNumber>
+			<title>梦幻模拟战 (简)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Masaya</publisher>
+			<location>7</location>
+			<sourceRom>永盛</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">FE6B5BF5</romCRC>
+			</files>
+			<im1CRC>C43FB730</im1CRC>
+			<im2CRC>D91C17F0</im2CRC>
+			<comment>Langrisser (Japan) [CHS]</comment>
+			<duplicateID>163</duplicateID>
+		</game>
+		<game>
+			<imageNumber>164</imageNumber>
+			<releaseNumber>164</releaseNumber>
+			<title>梦幻模拟战 (修正版) (简)</title>
+			<saveType></saveType>
+			<romSize>1048576</romSize>
+			<publisher>Masaya</publisher>
+			<location>7</location>
+			<sourceRom>永盛&amp;Lancelot</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">A39268A2</romCRC>
+			</files>
+			<im1CRC>51E0817F</im1CRC>
+			<im2CRC>11A1EFA9</im2CRC>
+			<comment>Langrisser (Japan) (Fix) [CHS]</comment>
+			<duplicateID>163</duplicateID>
+		</game>
+		<game>
+			<imageNumber>165</imageNumber>
+			<releaseNumber>165</releaseNumber>
+			<title>梦幻之星4 - 千年终结 (简)</title>
+			<saveType></saveType>
+			<romSize>4194304</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>永盛</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">C01646D8</romCRC>
+			</files>
+			<im1CRC>69006F58</im1CRC>
+			<im2CRC>DBBE5C7B</im2CRC>
+			<comment>Phantasy Star - Sennenki no Owari ni (Japan) [CHS]</comment>
+			<duplicateID>95</duplicateID>
+		</game>
+		<game>
+			<imageNumber>166</imageNumber>
+			<releaseNumber>166</releaseNumber>
+			<title>冒险世界4 (v2) (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>wolfteam</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">BDC7AA2D</romCRC>
+			</files>
+			<im1CRC>B8613B73</im1CRC>
+			<im2CRC>5BB2D50A</im2CRC>
+			<comment>Monster World IV (Japan) (v2) [CHS]</comment>
+			<duplicateID>129</duplicateID>
+		</game>
+		<game>
+			<imageNumber>167</imageNumber>
+			<releaseNumber>167</releaseNumber>
+			<title>吃豆世界2 (简)</title>
+			<saveType></saveType>
+			<romSize>2621440</romSize>
+			<publisher>Namco</publisher>
+			<location>1</location>
+			<sourceRom>AXI</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">5CD3F3ED</romCRC>
+			</files>
+			<im1CRC>610579DE</im1CRC>
+			<im2CRC>FA466A1F</im2CRC>
+			<comment>Pac-Man 2 - The New Adventures (USA) [CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>168</imageNumber>
+			<releaseNumber>168</releaseNumber>
+			<title>大航海时代2 (v1.9E3) (加强版) (繁)</title>
+			<saveType></saveType>
+			<romSize>3264128</romSize>
+			<publisher>Koei</publisher>
+			<location>7</location>
+			<sourceRom>意志之路</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">05C20070</romCRC>
+			</files>
+			<im1CRC>3F234EA5</im1CRC>
+			<im2CRC>072A2AE5</im2CRC>
+			<comment>Daikoukai Jidai II (Japan) (v1.9E3 Plus) [CHT]</comment>
+			<duplicateID>20</duplicateID>
+		</game>
+		<game>
+			<imageNumber>169</imageNumber>
+			<releaseNumber>169</releaseNumber>
+			<title>不朽的巫师 (v1.0) (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Electronic Arts Victor</publisher>
+			<location>7</location>
+			<sourceRom>SGGG</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">0C7091E2</romCRC>
+			</files>
+			<im1CRC>D1BF00A5</im1CRC>
+			<im2CRC>1C2B8C37</im2CRC>
+			<comment>Wizard of the Immortal (Japan) (v1.0) [CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>170</imageNumber>
+			<releaseNumber>170</releaseNumber>
+			<title>星际枪骑兵 (v0.7) (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Masaya</publisher>
+			<location>7</location>
+			<sourceRom>SGGG</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">27EFAB72</romCRC>
+			</files>
+			<im1CRC>86BDD814</im1CRC>
+			<im2CRC>0350E21E</im2CRC>
+			<comment>Advanced Busterhawk Gleylancer (Japan) (v0.7) [CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>171</imageNumber>
+			<releaseNumber>171</releaseNumber>
+			<title>旋风女战士 (v0.6) (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Wolf Team</publisher>
+			<location>7</location>
+			<sourceRom>SGGG</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">2936288A</romCRC>
+			</files>
+			<im1CRC>72BC1F0D</im1CRC>
+			<im2CRC>86906699</im2CRC>
+			<comment>El. Viento (Japan) (v0.6) [CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>172</imageNumber>
+			<releaseNumber>172</releaseNumber>
+			<title>梦幻模拟战2 (修正版) (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Masaya</publisher>
+			<location>7</location>
+			<sourceRom>狼组&amp;grape0915</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">0692B02E</romCRC>
+			</files>
+			<im1CRC>864CD912</im1CRC>
+			<im2CRC>CC43681E</im2CRC>
+			<comment>Langrisser II (Japan) (Fix) [CHS]</comment>
+			<duplicateID>38</duplicateID>
+		</game>
+		<game>
+			<imageNumber>173</imageNumber>
+			<releaseNumber>173</releaseNumber>
+			<title>风中奇缘 (v0.2) (简)</title>
+			<saveType></saveType>
+			<romSize>5242880</romSize>
+			<publisher>Disney Interactive</publisher>
+			<location>1</location>
+			<sourceRom>SGGG</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">818D78A3</romCRC>
+			</files>
+			<im1CRC>BFA1D5B7</im1CRC>
+			<im2CRC>F1DE922F</im2CRC>
+			<comment>Pocahontas (USA) (v0.2) [CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>174</imageNumber>
+			<releaseNumber>174</releaseNumber>
+			<title>蓝宝石之迷 (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Namco</publisher>
+			<location>7</location>
+			<sourceRom>永盛</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">42DBA4C9</romCRC>
+			</files>
+			<im1CRC>EE0084B0</im1CRC>
+			<im2CRC>7D5E47E7</im2CRC>
+			<comment>Fushigi no Umi no Nadia (Japan) [CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>175</imageNumber>
+			<releaseNumber>175</releaseNumber>
+			<title>美少女战士 (v0.61) (简)</title>
+			<saveType></saveType>
+			<romSize>4194304</romSize>
+			<publisher>Ma-Ba</publisher>
+			<location>7</location>
+			<sourceRom>SGGG</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">F8AE9511</romCRC>
+			</files>
+			<im1CRC>DF098C11</im1CRC>
+			<im2CRC>3AF65F74</im2CRC>
+			<comment>Bishoujo Senshi Sailor Moon (Japan) (v0.61) [CHS]</comment>
+			<duplicateID>0</duplicateID>
+		</game>
+		<game>
+			<imageNumber>176</imageNumber>
+			<releaseNumber>176</releaseNumber>
+			<title>怪物世界4 (重制汉化版) (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>未知</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">9E764A28</romCRC>
+			</files>
+			<im1CRC>4FF304A1</im1CRC>
+			<im2CRC>F63C039E</im2CRC>
+			<comment>Monster World IV (Japan) [CHS]</comment>
+			<duplicateID>129</duplicateID>
+		</game>
+		<game>
+			<imageNumber>177</imageNumber>
+			<releaseNumber>177</releaseNumber>
+			<title>怪物世界4 (重制汉化版) (繁)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>Sega</publisher>
+			<location>7</location>
+			<sourceRom>未知</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".md">F72DB809</romCRC>
+			</files>
+			<im1CRC>951B0D92</im1CRC>
+			<im2CRC>02530EAB</im2CRC>
+			<comment>Monster World IV (Japan) [CHT]</comment>
+			<duplicateID>129</duplicateID>
+		</game>
+	</games>
+</dat>
