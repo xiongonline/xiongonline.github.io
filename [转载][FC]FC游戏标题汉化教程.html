@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html lang="zh-cn">
+	<head>
+		<title>[转载][FC]FC游戏标题汉化教程</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+		<h1 align="center" style="text-align:center">
+			<span style="font-size:25.0pt">FC游戏标题汉化教程</span>
+			<span style="font-size:15.0pt">——&nbsp;sosovipp（MS汉化组）</span>
+		</h1>
+		<div align="center">http://bbs.emumax.com/viewthread.php?tid=23746&extra=page%3D1</div>
+		<div align="center">http://fcpic.nesbbs.com/0zt/ms/Info.asp</div>
+		<br/>
+		<img src="images\FC游戏标题汉化教程001.png" /><br/>
+		ＦＣ标题汉化目前已知的有四种情况，分别对应下边第8步的①②③④，难度由低到高。<br/>
+		用到的软件有：Vnes模拟器、TLP、Photoshop、FCdebug、十六进制编辑器(CrystalTools、UltraEdit32等)。<br/>
+		<font color="red">建议先熟练掌握Photoshop，并培养一定的设计思想跟艺术品味。因为汉化LOGO并不只是技术问题。</font><br/>
+		<br/>
+		<b>大概步骤：</b><br/>
+		01、用VNES运行游戏，截下标题画面(会自动保存到模拟器目录下或者ROM的目录下)。<br/>
+		02、用TLP打开ROM，对照刚才的截图，找出标题LOGO的相应区域(按键盘上的方向键可进行调整)。<br/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;点鼠标右键，拖拉选取，然后编辑->导出位图，保存。<br/>
+		03、运行Photoshop，打开导出图，图像->模式->RGB，按 shift+d 还原默认前景色跟背景色。<br/>
+		04、图像->画布大小->定位选左上角，宽度、高度 300％，确定。<br/>
+		05、编辑->(最下边)预置->参考线、网格和切片，把网格间隔改为8象素，子网格为1。视图->显示->网格，视图->对齐到->网格。<br/>
+		06、打开截下的标题图，ctrl+a 全选，然后选择左边工具栏横数第二个的实选取工具，拉到导出图那里。<br/>
+		07、选左边工具栏的“T”，输入要汉化的字，并选择合适的字体、处理成符合原风格的效果。<br/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(字体颜色、描边颜色等要跟导出图的一致。字体下载见附录1)<br/>
+		08、以下是标题汉化的核心部分，分三种情况：<br/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;①直接覆盖(简单)：原标题完整、无错乱，直接把汉化字覆盖上去就行了；<br/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;②对照覆盖(普通)：原标题完整、但错乱，对比原标题的位置，把汉化后的字一小块一小块的放到相应的位置覆盖；<br/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(也可以直接把整块文字覆盖上去，然后再到程序那边调整)<br/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;③压缩覆盖：(原标题是组合形式的)<br/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这种最麻烦，图库一般都很小，所以得尽可能的把汉化后的字简化压缩以节省空间。<br/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;确保空间足够后，按照大概位置放回去，再由程序方面调整地址。(见第11步)<br/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(注：以上三步注意不要覆盖到其他无关区域)<br/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;④二级压缩覆盖：(原标题是重叠压缩的)<br/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TLP里边，蓝：第一层；绿：第二层；白：第一层与第二层的交叉(同时属于一、二层)。<br/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PS里边，将这两层分离为独立的两个图层。然后将汉化的LOGO分布放到这两个图层，叠加，交叉部分用白色表示。<br/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;做好后导入覆盖，检查、调整地址。<br/>
+		09、完整覆盖原导出图后，图像->模式->索引，然后保存为BMP，颜色表选自定义，载入附录2的TLP颜色表。<br/>
+		10、TLP导入汉化后的BMP图，放到原来的位置覆盖(如果导入出错，把位图切成几块分几次导入)；<br/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;点击鼠标左键确定，保存。运行Vnes载入处理后的ROM，检查，如果有错，返回以上几步重新调整。<br/>
+		11、标题的调整：运行FCdebug，打开ROM，标题画面时，打开 VRAM，从下方查出相应的图块的地址。<br/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;然后打开十六进制编辑器，Ctrl+F查找，找到相应的地址进行调整修改。<br/>
+		<br/>
+		<font color="red">汉化LOGO的一般原则是：</font><br/>
+		·按照原风格、原配色及原字体效果进行设计；（因为原来的LOGO大都是专业的游戏美工精心设计出来的，配色方面也很讲究）<br/>
+		·符合最基本的视觉效果；<br/>
+		·如果时间充裕的话，可以把LOGO设计得更活泼、有个性一些。（因为即使汉化一个简单的LOGO，至少也得花一两个小时）<br/>
+		<br/>
+		<b>更新情况</b><br/>
+		1.1更新：<br/>
+		添加了第四种情况；<br/>
+		添加了汉化原则；<br/>
+		添加了字体速查表；<br/>
+		添加了FC调色板；<br/>
+		添加了字体站点集合。<br/>
+		<br/>
+		<b>附录1</b><br/>
+		字体站点集合<br/>
+		1、http://coolfont.ayinfo.ha.cn/ 酷字千寻，中文，英文，3DMAX，更多字体<br/>
+		2、http://www.3y3y.com/html/14/ 上网热点，字体打包下载<br/>
+		3、http://font.woweb.ru/ 英文字体<br/>
+		4、http://font.chinadownz.com/Index.html 中国下载站，字体下载<br/>
+		5、http://www.goodfont.net/down.asp 字体精品，字体下载<br/>
+		<br/>
+		<b>附录2</b><br/>
+		TLP颜色表（Photoshop专用，根据上边教程进行使用。）<br/>
+		<br/>
+		<b>附录3</b><br/>
+		FC调色板<br/>
+		<img src="images\FC游戏标题汉化教程002.png" /><br/>
+		<br/>
+		<b>附录4</b><br/>
+		字体速查表<br/>
+	</body>
+</html>
