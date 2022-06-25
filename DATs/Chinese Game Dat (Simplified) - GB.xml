@@ -1,0 +1,1195 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<!-- Pictures by : money_114, xiong_online -->
+<!-- OL Datter :  money_114, xiong_online -->
+
+<dat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datas.xsd">
+	<configuration>
+		<datName>Chinese Game Dat (Simplified) - GB</datName>
+		<imFolder>Chinese Games - GB</imFolder>
+		<datVersion>20211231</datVersion>
+		<system>Nintendo - Game Boy</system>
+		<screenshotsWidth>160</screenshotsWidth>
+		<screenshotsHeight>144</screenshotsHeight>
+		<infos>
+			<title visible="true" inNamingOption="true" default="false"/>
+			<location visible="true" inNamingOption="true" default="true"/>
+			<publisher visible="true" inNamingOption="true" default="true"/>
+			<sourceRom visible="true" inNamingOption="true" default="true"/>
+			<romSize visible="true" inNamingOption="true" default="true"/>
+			<saveType visible="true" inNamingOption="true" default="true"/>
+			<releaseNumber visible="false" inNamingOption="true" default="false"/>
+			<imageNumber visible="false" inNamingOption="false" default="false"/>
+			<languageNumber visible="false" inNamingOption="false" default="false"/>
+			<comment visible="true" inNamingOption="true" default="true"/>
+			<romCRC visible="true" inNamingOption="true" default="true"/>
+			<im1CRC visible="false" inNamingOption="false" default="false"/>
+			<im2CRC visible="false" inNamingOption="false" default="false"/>
+			<languages visible="true" inNamingOption="true" default="true"/>
+		</infos>
+		<canOpen>
+			<extension>.gb</extension>
+		</canOpen>
+		<newDat>
+			<datVersionURL></datVersionURL>
+			<datURL fileName="CHS_GB_OL.zip"></datURL>
+			<imURL></imURL>
+		</newDat>
+		<search>
+			<to value="location" default="true" auto="true"/>
+			<to value="publisher" default="true" auto="true"/>
+			<to value="sourceRom" default="true" auto="true"/>
+			<to value="languages" default="false" auto="true"/>
+			<to value="romSize" default="true" auto="false">
+				<find operation="=" value="32768">256 KBits</find>
+				<find operation="=" value="65536">512 KBits</find>
+				<find operation="=" value="131072">1 MBits</find>
+				<find operation="=" value="262144">2 MBits</find>
+				<find operation="=" value="524288">4 MBits</find>
+				<find operation="=" value="1048576">8 MBits</find>
+			</to>
+			<to value="saveType" default="true" auto="false">
+				<find operation="inNoCase" value="No SRAM">No SRAM</find>
+				<find operation="inNoCase" value="64KBit">64KBit</find>
+				<find operation="inNoCase" value="256KBit">256KBit</find>
+			</to>
+		</search>
+		<romTitle>%n [%g]</romTitle>
+	</configuration>
+	<games>
+		<game>
+			<imageNumber>1</imageNumber>
+			<releaseNumber>1</releaseNumber>
+			<title>魂斗罗 (简)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>262144</romSize>
+			<publisher>Konami</publisher>
+			<location>7</location>
+			<sourceRom>未知</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">979E0024</romCRC>
+			</files>
+			<im1CRC>541EBF46</im1CRC>
+			<im2CRC>1ECA7B3C</im2CRC>
+			<comment>Contra Spirits (Japan) (SGB Enhanced) [CHS]</comment>
+			<duplicateID>1</duplicateID>
+		</game>
+		<game>
+			<imageNumber>2</imageNumber>
+			<releaseNumber>2</releaseNumber>
+			<title>第二次超级机器人大战G (繁)</title>
+			<saveType>64KBit</saveType>
+			<romSize>1048576</romSize>
+			<publisher>Banpresto</publisher>
+			<location>7</location>
+			<sourceRom>未知</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">B88F0974</romCRC>
+			</files>
+			<im1CRC>75B582C0</im1CRC>
+			<im2CRC>EAC675E8</im2CRC>
+			<comment>Dai-2-ji Super Robot Taisen G (Japan) (SGB Enhanced) [CHT]</comment>
+			<duplicateID>2</duplicateID>
+		</game>
+		<game>
+			<imageNumber>3</imageNumber>
+			<releaseNumber>3</releaseNumber>
+			<title>悟空外传 - 激斗篇 (修正版) (繁)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>524288</romSize>
+			<publisher>Bandai</publisher>
+			<location>7</location>
+			<sourceRom>盗版&amp;sss888</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">74FBBDC2</romCRC>
+			</files>
+			<im1CRC>493264BA</im1CRC>
+			<im2CRC>9C201A2F</im2CRC>
+			<comment>Dragon Ball Z - Gokuu Hishouden (Japan) (SGB Enhanced) (Fix) [CHT]</comment>
+			<duplicateID>3</duplicateID>
+		</game>
+		<game>
+			<imageNumber>4</imageNumber>
+			<releaseNumber>4</releaseNumber>
+			<title>数码暴龙 (简)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>262144</romSize>
+			<publisher>Angel</publisher>
+			<location>7</location>
+			<sourceRom>未知</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">04C85890</romCRC>
+			</files>
+			<im1CRC>5A7D4D47</im1CRC>
+			<im2CRC>D6CEFF77</im2CRC>
+			<comment>Gamera - Daikaijuu Kuuchuu Kessen (Japan) (SGB Enhanced) [CHS]</comment>
+			<duplicateID>4</duplicateID>
+		</game>
+		<game>
+			<imageNumber>5</imageNumber>
+			<releaseNumber>5</releaseNumber>
+			<title>邦得007 - 末日帝国 (繁)</title>
+			<saveType>64KBit</saveType>
+			<romSize>1048576</romSize>
+			<publisher>Nintendo</publisher>
+			<location>16</location>
+			<sourceRom>未知</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">88C04C15</romCRC>
+			</files>
+			<im1CRC>E7DD1011</im1CRC>
+			<im2CRC>49AF4273</im2CRC>
+			<comment>James Bond 007 (USA, Europe) (SGB Enhanced) [CHT]</comment>
+			<duplicateID>5</duplicateID>
+		</game>
+		<game>
+			<imageNumber>6</imageNumber>
+			<releaseNumber>6</releaseNumber>
+			<title>星之卡比 (简)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>262144</romSize>
+			<publisher>Nintendo</publisher>
+			<location>16</location>
+			<sourceRom>未知</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">95858E0F</romCRC>
+			</files>
+			<im1CRC>7039DD9B</im1CRC>
+			<im2CRC>D3EAF0C4</im2CRC>
+			<comment>Kirby's Dream Land (USA, Europe) [CHS]</comment>
+			<duplicateID>6</duplicateID>
+		</game>
+		<game>
+			<imageNumber>7</imageNumber>
+			<releaseNumber>7</releaseNumber>
+			<title>奇天烈大百科 - 冒险大江户侏罗纪 (简)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>262144</romSize>
+			<publisher>Video System</publisher>
+			<location>7</location>
+			<sourceRom>未知</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">FAA0F0D2</romCRC>
+			</files>
+			<im1CRC>DC04E4FD</im1CRC>
+			<im2CRC>4F96BABD</im2CRC>
+			<comment>Kiteretsu Daihyakka - Bouken Ooedo Juraki (Japan) [CHS]</comment>
+			<duplicateID>7</duplicateID>
+		</game>
+		<game>
+			<imageNumber>8</imageNumber>
+			<releaseNumber>8</releaseNumber>
+			<title>噗呦噗呦 (简)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>262144</romSize>
+			<publisher>Banpresto</publisher>
+			<location>7</location>
+			<sourceRom>CKN</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">F57DCA30</romCRC>
+			</files>
+			<im1CRC>19F58B3E</im1CRC>
+			<im2CRC>A5D52051</im2CRC>
+			<comment>Puyo Puyo (Japan) (SGB Enhanced) [CHS]</comment>
+			<duplicateID>8</duplicateID>
+		</game>
+		<game>
+			<imageNumber>9</imageNumber>
+			<releaseNumber>9</releaseNumber>
+			<title>口袋妖怪 - 红 (修正版) (繁)</title>
+			<saveType>256KBit</saveType>
+			<romSize>1048576</romSize>
+			<publisher>Nintendo</publisher>
+			<location>7</location>
+			<sourceRom>盗版&amp;sss888</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">132BA0A8</romCRC>
+			</files>
+			<im1CRC>07319DAF</im1CRC>
+			<im2CRC>277662DB</im2CRC>
+			<comment>Pocket Monsters - Aka (Japan) (SGB Enhanced) (Fix) [CHT]</comment>
+			<duplicateID>9</duplicateID>
+		</game>
+		<game>
+			<imageNumber>10</imageNumber>
+			<releaseNumber>10</releaseNumber>
+			<title>SD高达外传 - 拉古罗亚群英传 (修正版) (繁)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>524288</romSize>
+			<publisher>Nintendo</publisher>
+			<location>7</location>
+			<sourceRom>盗版&amp;Mezaransu</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">9F9B4487</romCRC>
+			</files>
+			<im1CRC>10BB6A22</im1CRC>
+			<im2CRC>C10AE210</im2CRC>
+			<comment>SD Gundam Gaiden - Lacroan' Heroes (Japan) (Fix) [CHT]</comment>
+			<duplicateID>10</duplicateID>
+		</game>
+		<game>
+			<imageNumber>11</imageNumber>
+			<releaseNumber>11</releaseNumber>
+			<title>口袋妖怪 - 蓝 (繁)</title>
+			<saveType>256KBit</saveType>
+			<romSize>1048576</romSize>
+			<publisher>Nintendo</publisher>
+			<location>16</location>
+			<sourceRom>未知</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">C5571F88</romCRC>
+			</files>
+			<im1CRC>AB6DEC8B</im1CRC>
+			<im2CRC>3B4B7B90</im2CRC>
+			<comment>Pokemon - Blue Version (USA, Europe) (SGB Enhanced) [CHT]</comment>
+			<duplicateID>11</duplicateID>
+		</game>
+		<game>
+			<imageNumber>12</imageNumber>
+			<releaseNumber>12</releaseNumber>
+			<title>口袋妖怪 - 绿 (繁)</title>
+			<saveType>256KBit</saveType>
+			<romSize>1048576</romSize>
+			<publisher>Nintendo</publisher>
+			<location>16</location>
+			<sourceRom>未知</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">F8C2504D</romCRC>
+			</files>
+			<im1CRC>1E0DEBB0</im1CRC>
+			<im2CRC>3B4B7B90</im2CRC>
+			<comment>Pokemon - Blue Version (USA, Europe) (SGB Enhanced) (Hack) [CHT]</comment>
+			<duplicateID>12</duplicateID>
+		</game>
+		<game>
+			<imageNumber>13</imageNumber>
+			<releaseNumber>13</releaseNumber>
+			<title>口袋妖怪 - 绿 (简)</title>
+			<saveType>256KBit</saveType>
+			<romSize>1048576</romSize>
+			<publisher>Nintendo</publisher>
+			<location>16</location>
+			<sourceRom>未知</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">0A0D2593</romCRC>
+			</files>
+			<im1CRC>05C5D168</im1CRC>
+			<im2CRC>E16105AE</im2CRC>
+			<comment>Pokemon - Blue Version (USA, Europe) (SGB Enhanced) (Hack) [CHS]</comment>
+			<duplicateID>12</duplicateID>
+		</game>
+		<game>
+			<imageNumber>14</imageNumber>
+			<releaseNumber>14</releaseNumber>
+			<title>异型战机 (简)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>131072</romSize>
+			<publisher>Irem</publisher>
+			<location>7</location>
+			<sourceRom>未知</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">0DAB18F0</romCRC>
+			</files>
+			<im1CRC>E8D5F341</im1CRC>
+			<im2CRC>BEBC1528</im2CRC>
+			<comment>R-Type (Japan) [CHS]</comment>
+			<duplicateID>14</duplicateID>
+		</game>
+		<game>
+			<imageNumber>15</imageNumber>
+			<releaseNumber>15</releaseNumber>
+			<title>三国志 (简)</title>
+			<saveType>64KBit</saveType>
+			<romSize>262144</romSize>
+			<publisher>Koei</publisher>
+			<location>7</location>
+			<sourceRom>voidboy</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">A610D84E</romCRC>
+			</files>
+			<im1CRC>B7AF1EA0</im1CRC>
+			<im2CRC>77F73C2F</im2CRC>
+			<comment>Sangokushi - Game Boy Ban (Japan) [CHS]</comment>
+			<duplicateID>15</duplicateID>
+		</game>
+		<game>
+			<imageNumber>16</imageNumber>
+			<releaseNumber>16</releaseNumber>
+			<title>三国志 (繁)</title>
+			<saveType>64KBit</saveType>
+			<romSize>262144</romSize>
+			<publisher>Koei</publisher>
+			<location>7</location>
+			<sourceRom>未知</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">B36E068C</romCRC>
+			</files>
+			<im1CRC>B7AF1EA0</im1CRC>
+			<im2CRC>C86045D2</im2CRC>
+			<comment>Sangokushi - Game Boy Ban (Japan) [CHT]</comment>
+			<duplicateID>15</duplicateID>
+		</game>
+		<game>
+			<imageNumber>17</imageNumber>
+			<releaseNumber>17</releaseNumber>
+			<title>多啦A梦赛车 (简)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>262144</romSize>
+			<publisher>Epoch</publisher>
+			<location>7</location>
+			<sourceRom>天空联盟</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">D8D3D639</romCRC>
+			</files>
+			<im1CRC>BF73CF53</im1CRC>
+			<im2CRC>EC11FAD1</im2CRC>
+			<comment>Doraemon Kart (Japan) (SGB Enhanced) [CHS]</comment>
+			<duplicateID>17</duplicateID>
+		</game>
+		<game>
+			<imageNumber>18</imageNumber>
+			<releaseNumber>18</releaseNumber>
+			<title>超级机器人大战 (简)</title>
+			<saveType>256KBit</saveType>
+			<romSize>131072</romSize>
+			<publisher>Banpresto</publisher>
+			<location>7</location>
+			<sourceRom>未知</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">B0A4E40E</romCRC>
+			</files>
+			<im1CRC>F3E6670A</im1CRC>
+			<im2CRC>965F860F</im2CRC>
+			<comment>Super Robot Taisen (Japan) [CHS]</comment>
+			<duplicateID>18</duplicateID>
+		</game>
+		<game>
+			<imageNumber>19</imageNumber>
+			<releaseNumber>19</releaseNumber>
+			<title>吞食天地 (繁)</title>
+			<saveType>64KBit</saveType>
+			<romSize>524288</romSize>
+			<publisher>Capcom</publisher>
+			<location>7</location>
+			<sourceRom>未知</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">482A0A71</romCRC>
+			</files>
+			<im1CRC>6FDE5F52</im1CRC>
+			<im2CRC>DAC249A8</im2CRC>
+			<comment>Tenchi o Kurau (Japan) [CHT]</comment>
+			<duplicateID>19</duplicateID>
+		</game>
+		<game>
+			<imageNumber>20</imageNumber>
+			<releaseNumber>20</releaseNumber>
+			<title>吞食天地 (简)</title>
+			<saveType>64KBit</saveType>
+			<romSize>524288</romSize>
+			<publisher>Capcom</publisher>
+			<location>7</location>
+			<sourceRom>未知</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">067916A7</romCRC>
+			</files>
+			<im1CRC>8C027D5B</im1CRC>
+			<im2CRC>D001F2FF</im2CRC>
+			<comment>Tenchi o Kurau (Japan) [CHS]</comment>
+			<duplicateID>19</duplicateID>
+		</game>
+		<game>
+			<imageNumber>21</imageNumber>
+			<releaseNumber>21</releaseNumber>
+			<title>沙加3 - 时空之霸者 (繁)</title>
+			<saveType>64KBit</saveType>
+			<romSize>524288</romSize>
+			<publisher>SquareSoft</publisher>
+			<location>1</location>
+			<sourceRom>未知</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">A6B6E233</romCRC>
+			</files>
+			<im1CRC>99DDAE5D</im1CRC>
+			<im2CRC>C88558ED</im2CRC>
+			<comment>Final Fantasy Legend III (USA) [CHT]</comment>
+			<duplicateID>21</duplicateID>
+		</game>
+		<game>
+			<imageNumber>22</imageNumber>
+			<releaseNumber>22</releaseNumber>
+			<title>瓜瓜火龙 (繁)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>65536</romSize>
+			<publisher>Gowin</publisher>
+			<location>3</location>
+			<sourceRom>Gowin</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">275947F5</romCRC>
+			</files>
+			<im1CRC>63CEECFA</im1CRC>
+			<im2CRC>8E270B7C</im2CRC>
+			<comment>Fire Dragon (China) (Unl) [CHT]</comment>
+			<duplicateID>22</duplicateID>
+		</game>
+		<game>
+			<imageNumber>23</imageNumber>
+			<releaseNumber>23</releaseNumber>
+			<title>侏罗纪3 (繁)</title>
+			<saveType>64KBit</saveType>
+			<romSize>524288</romSize>
+			<publisher>Nintendo</publisher>
+			<location>3</location>
+			<sourceRom>未知</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">8F96B796</romCRC>
+			</files>
+			<im1CRC>AAA48D6D</im1CRC>
+			<im2CRC>D6737580</im2CRC>
+			<comment>Jurassic Park 3 (China) (Unl) [CHT]</comment>
+			<duplicateID>23</duplicateID>
+		</game>
+		<game>
+			<imageNumber>24</imageNumber>
+			<releaseNumber>24</releaseNumber>
+			<title>魔法球 (繁)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>131072</romSize>
+			<publisher>Gowin</publisher>
+			<location>3</location>
+			<sourceRom>Gowin</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">0AF9089E</romCRC>
+			</files>
+			<im1CRC>3FEFAC48</im1CRC>
+			<im2CRC>0E2C24BB</im2CRC>
+			<comment>Magic Ball (China) (Unl) [CHT]</comment>
+			<duplicateID>24</duplicateID>
+		</game>
+		<game>
+			<imageNumber>25</imageNumber>
+			<releaseNumber>25</releaseNumber>
+			<title>梦幻之星 - 拯救地球 (繁)</title>
+			<saveType>64KBit</saveType>
+			<romSize>262144</romSize>
+			<publisher>SKOB</publisher>
+			<location>3</location>
+			<sourceRom>SKOB</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">76FD8BC5</romCRC>
+			</files>
+			<im1CRC>0914CDB7</im1CRC>
+			<im2CRC>5B7A2686</im2CRC>
+			<comment>Phantasy Star (China) (Unl) [CHT]</comment>
+			<duplicateID>25</duplicateID>
+		</game>
+		<game>
+			<imageNumber>26</imageNumber>
+			<releaseNumber>26</releaseNumber>
+			<title>梦幻之星 - 拯救地球 (简)</title>
+			<saveType>64KBit</saveType>
+			<romSize>262144</romSize>
+			<publisher>SKOB</publisher>
+			<location>3</location>
+			<sourceRom>laopix</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">E498D751</romCRC>
+			</files>
+			<im1CRC>209BFB0E</im1CRC>
+			<im2CRC>FA0FBCEE</im2CRC>
+			<comment>Phantasy Star (China) (Unl) [CHS]</comment>
+			<duplicateID>25</duplicateID>
+		</game>
+		<game>
+			<imageNumber>27</imageNumber>
+			<releaseNumber>27</releaseNumber>
+			<title>迷途之旅 (繁)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>65536</romSize>
+			<publisher>Gowin</publisher>
+			<location>3</location>
+			<sourceRom>Gowin</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">9039CBDB</romCRC>
+			</files>
+			<im1CRC>C32E7CAE</im1CRC>
+			<im2CRC>5BEDA8B3</im2CRC>
+			<comment>Puzzle Path (China) (Unl) [CHT]</comment>
+			<duplicateID>27</duplicateID>
+		</game>
+		<game>
+			<imageNumber>28</imageNumber>
+			<releaseNumber>28</releaseNumber>
+			<title>彩虹战士 (繁)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>131072</romSize>
+			<publisher>Gowin</publisher>
+			<location>3</location>
+			<sourceRom>Gowin</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">10F447F0</romCRC>
+			</files>
+			<im1CRC>F65E941B</im1CRC>
+			<im2CRC>051D8E7A</im2CRC>
+			<comment>Rainbow Prince (China) (Unl) [CHT]</comment>
+			<duplicateID>28</duplicateID>
+		</game>
+		<game>
+			<imageNumber>29</imageNumber>
+			<releaseNumber>29</releaseNumber>
+			<title>数码暴龙 - 格斗天王 (繁)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>262144</romSize>
+			<publisher>Time Waner Interactive</publisher>
+			<location>16</location>
+			<sourceRom>未知</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">7514E36E</romCRC>
+			</files>
+			<im1CRC>23BF03B5</im1CRC>
+			<im2CRC>6F58C9CB</im2CRC>
+			<comment>Primal Rage (USA, Europe) [CHT]</comment>
+			<duplicateID>29</duplicateID>
+		</game>
+		<game>
+			<imageNumber>30</imageNumber>
+			<releaseNumber>30</releaseNumber>
+			<title>耀奇方块 (简)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>65536</romSize>
+			<publisher>Nintendo</publisher>
+			<location>7</location>
+			<sourceRom>天空联盟</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">1C5DF9D6</romCRC>
+			</files>
+			<im1CRC>C518401B</im1CRC>
+			<im2CRC>9DBFA32D</im2CRC>
+			<comment>Yoshi no Tamago (Japan) [CHS]</comment>
+			<duplicateID>30</duplicateID>
+		</game>
+		<game>
+			<imageNumber>31</imageNumber>
+			<releaseNumber>31</releaseNumber>
+			<title>坦克大战 (简)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>32768</romSize>
+			<publisher>Nova Co.,Ltd</publisher>
+			<location>7</location>
+			<sourceRom>madcell</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">AFF420E7</romCRC>
+			</files>
+			<im1CRC>D5884BAC</im1CRC>
+			<im2CRC>E42466F1</im2CRC>
+			<comment>Battle City (Japan) [CHS]</comment>
+			<duplicateID>31</duplicateID>
+		</game>
+		<game>
+			<imageNumber>32</imageNumber>
+			<releaseNumber>32</releaseNumber>
+			<title>热血硬派国夫君 - 番外乱斗篇 (简)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>262144</romSize>
+			<publisher>Technos Japan</publisher>
+			<location>7</location>
+			<sourceRom>madcell</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">8B0FB8BD</romCRC>
+			</files>
+			<im1CRC>E108F45B</im1CRC>
+			<im2CRC>DD9642BC</im2CRC>
+			<comment>Nekketsu Kouha Kunio-kun - Bangai Rantou Hen (Japan) [CHS]</comment>
+			<duplicateID>32</duplicateID>
+		</game>
+		<game>
+			<imageNumber>33</imageNumber>
+			<releaseNumber>33</releaseNumber>
+			<title>沙加3 - 时空之霸者 (简)</title>
+			<saveType>64KBit</saveType>
+			<romSize>524288</romSize>
+			<publisher>SquareSoft</publisher>
+			<location>1</location>
+			<sourceRom>soma</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">9B22A577</romCRC>
+			</files>
+			<im1CRC>533F7D19</im1CRC>
+			<im2CRC>ADF41597</im2CRC>
+			<comment>Final Fantasy Legend III (USA) [CHS]</comment>
+			<duplicateID>21</duplicateID>
+		</game>
+		<game>
+			<imageNumber>34</imageNumber>
+			<releaseNumber>34</releaseNumber>
+			<title>口袋妖怪 - 黄 (繁)</title>
+			<saveType>256KBit</saveType>
+			<romSize>1048576</romSize>
+			<publisher>Nintendo</publisher>
+			<location>16</location>
+			<sourceRom>未知</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">211F4C6C</romCRC>
+			</files>
+			<im1CRC>3C74F780</im1CRC>
+			<im2CRC>3B4B7B90</im2CRC>
+			<comment>Pokemon - Yellow Version - Special Pikachu Edition (USA, Europe) (GBC,SGB Enhanced) [CHT]</comment>
+			<duplicateID>34</duplicateID>
+		</game>
+		<game>
+			<imageNumber>35</imageNumber>
+			<releaseNumber>35</releaseNumber>
+			<title>超级马力欧乐园 (v2.0) (简)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>131072</romSize>
+			<publisher>Nintendo</publisher>
+			<location>17</location>
+			<sourceRom>星夜之幻</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">EA2DFEFD</romCRC>
+			</files>
+			<im1CRC>A1CD1080</im1CRC>
+			<im2CRC>F53FD104</im2CRC>
+			<comment>Super Mario Land (World) (v2.0) [CHS]</comment>
+			<duplicateID>35</duplicateID>
+		</game>
+		<game>
+			<imageNumber>36</imageNumber>
+			<releaseNumber>36</releaseNumber>
+			<title>拉萨玛传奇 (繁)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>65536</romSize>
+			<publisher>Gowin</publisher>
+			<location>3</location>
+			<sourceRom>Gowin</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">985FCC24</romCRC>
+			</files>
+			<im1CRC>3479649D</im1CRC>
+			<im2CRC>824A7546</im2CRC>
+			<comment>Story of Lasama (China) (Unl) [CHT]</comment>
+			<duplicateID>36</duplicateID>
+		</game>
+		<game>
+			<imageNumber>37</imageNumber>
+			<releaseNumber>37</releaseNumber>
+			<title>口袋妖怪 - 红 (繁)</title>
+			<saveType>256KBit</saveType>
+			<romSize>1048576</romSize>
+			<publisher>Nintendo</publisher>
+			<location>16</location>
+			<sourceRom>未知</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">63EF11D8</romCRC>
+			</files>
+			<im1CRC>CF1D4C16</im1CRC>
+			<im2CRC>3B4B7B90</im2CRC>
+			<comment>Pokemon - Red Version (USA, Europe) (SGB Enhanced) [CHT]</comment>
+			<duplicateID>9</duplicateID>
+		</game>
+		<game>
+			<imageNumber>38</imageNumber>
+			<releaseNumber>38</releaseNumber>
+			<title>口袋妖怪 - 黄 (修正版) (繁)</title>
+			<saveType>256KBit</saveType>
+			<romSize>1048576</romSize>
+			<publisher>Nintendo</publisher>
+			<location>7</location>
+			<sourceRom>盗版&amp;yishiluo</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">F98DDC57</romCRC>
+			</files>
+			<im1CRC>1CC9871A</im1CRC>
+			<im2CRC>F024E8CD</im2CRC>
+			<comment>Pocket Monsters - Pikachu (Japan) (SGB Enhanced) (Fix) [CHT]</comment>
+			<duplicateID>34</duplicateID>
+		</game>
+		<game>
+			<imageNumber>39</imageNumber>
+			<releaseNumber>39</releaseNumber>
+			<title>热血！沙滩排球 - 国雄君 (繁)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>524288</romSize>
+			<publisher>Technos</publisher>
+			<location>7</location>
+			<sourceRom>热血的鱼缸</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">35616BB5</romCRC>
+			</files>
+			<im1CRC>7D47607B</im1CRC>
+			<im2CRC>38A99249</im2CRC>
+			<comment>Nekketsu! Beach Volley Da yo Kunio-kun (Japan) (SGB Enhanced) [CHT]</comment>
+			<duplicateID>39</duplicateID>
+		</game>
+		<game>
+			<imageNumber>40</imageNumber>
+			<releaseNumber>40</releaseNumber>
+			<title>龙行天下 (繁)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>131072</romSize>
+			<publisher>Gowin</publisher>
+			<location>3</location>
+			<sourceRom>Gowin</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">C2C172C3</romCRC>
+			</files>
+			<im1CRC>C1105AC5</im1CRC>
+			<im2CRC>FCA2383E</im2CRC>
+			<comment>Fire Dragon (China) (Unl) [CHT]</comment>
+			<duplicateID>40</duplicateID>
+		</game>
+		<game>
+			<imageNumber>41</imageNumber>
+			<releaseNumber>41</releaseNumber>
+			<title>最高机密 (繁)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>65536</romSize>
+			<publisher>Gowin</publisher>
+			<location>3</location>
+			<sourceRom>Gowin</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">F5F8D0B3</romCRC>
+			</files>
+			<im1CRC>87136203</im1CRC>
+			<im2CRC>64F46573</im2CRC>
+			<comment>Top Secret (China) (Unl) [CHT]</comment>
+			<duplicateID>41</duplicateID>
+		</game>
+		<game>
+			<imageNumber>42</imageNumber>
+			<releaseNumber>42</releaseNumber>
+			<title>神术 - 幻想世界的诞生 (修正版) (简)</title>
+			<saveType>64KBit</saveType>
+			<romSize>524288</romSize>
+			<publisher>Konami</publisher>
+			<location>7</location>
+			<sourceRom>盗版&amp;dhx</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">4809986D</romCRC>
+			</files>
+			<im1CRC>BACB245A</im1CRC>
+			<im2CRC>28B66429</im2CRC>
+			<comment>God Medicine - Fantasy Sekai no Tanjou (Japan) (Fix) [CHS]</comment>
+			<duplicateID>42</duplicateID>
+		</game>
+		<game>
+			<imageNumber>43</imageNumber>
+			<releaseNumber>43</releaseNumber>
+			<title>超级机器人大战A (简)</title>
+			<saveType>256KBit</saveType>
+			<romSize>262144</romSize>
+			<publisher>Banpresto</publisher>
+			<location>7</location>
+			<sourceRom>未知</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">24F1C928</romCRC>
+			</files>
+			<im1CRC>71D32C1A</im1CRC>
+			<im2CRC>965F860F</im2CRC>
+			<comment>Super Robot Taisen (Japan) [CHS]</comment>
+			<duplicateID>18</duplicateID>
+		</game>
+		<game>
+			<imageNumber>44</imageNumber>
+			<releaseNumber>44</releaseNumber>
+			<title>精灵宝可梦 - 皮卡丘 (v1.1) (简)</title>
+			<saveType>256KBit</saveType>
+			<romSize>2097152</romSize>
+			<publisher>Nintendo</publisher>
+			<location>16</location>
+			<sourceRom>CKN&amp;口袋群星SP</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">E482DD31</romCRC>
+			</files>
+			<im1CRC>9DC2DE2B</im1CRC>
+			<im2CRC>4DF24CE9</im2CRC>
+			<comment>Pokemon - Yellow Version - Special Pikachu Edition (USA, Europe) (GBC,SGB Enhanced) (v1.1) [CHS]</comment>
+			<duplicateID>34</duplicateID>
+		</game>
+		<game>
+			<imageNumber>45</imageNumber>
+			<releaseNumber>45</releaseNumber>
+			<title>科乐美收藏集1 (简)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>1048576</romSize>
+			<publisher>Konami</publisher>
+			<location>7</location>
+			<sourceRom>DMG</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">710AB3BB</romCRC>
+			</files>
+			<im1CRC>8E4E4B23</im1CRC>
+			<im2CRC>90524070</im2CRC>
+			<comment>Konami GB Collection Vol.1 (Japan) (SGB Enhanced) [CHS]</comment>
+			<duplicateID>45</duplicateID>
+		</game>
+		<game>
+			<imageNumber>46</imageNumber>
+			<releaseNumber>46</releaseNumber>
+			<title>人生游戏 (修正版) (繁)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>524288</romSize>
+			<publisher>Takara</publisher>
+			<location>7</location>
+			<sourceRom>盗版&amp;Mezaransu</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">B38B9D55</romCRC>
+			</files>
+			<im1CRC>2AB9EFF2</im1CRC>
+			<im2CRC>D3A92DF5</im2CRC>
+			<comment>Jinsei Game (Japan) (SGB Enhanced) (Fix) [CHT]</comment>
+			<duplicateID>46</duplicateID>
+		</game>
+		<game>
+			<imageNumber>47</imageNumber>
+			<releaseNumber>47</releaseNumber>
+			<title>科乐美收藏集2 (简)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>1048576</romSize>
+			<publisher>Konami</publisher>
+			<location>7</location>
+			<sourceRom>DMG</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">B60151D0</romCRC>
+			</files>
+			<im1CRC>16ABA960</im1CRC>
+			<im2CRC>FBEEE898</im2CRC>
+			<comment>Konami GB Collection Vol.2 (Japan) (SGB Enhanced) [CHS]</comment>
+			<duplicateID>47</duplicateID>
+		</game>
+		<game>
+			<imageNumber>48</imageNumber>
+			<releaseNumber>48</releaseNumber>
+			<title>忍者龙剑传 - 摩天楼决战 (v1.1) (简)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>131072</romSize>
+			<publisher>Tecmo</publisher>
+			<location>7</location>
+			<sourceRom>DMG</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">0F70394A</romCRC>
+			</files>
+			<im1CRC>EF551836</im1CRC>
+			<im2CRC>062DB6F0</im2CRC>
+			<comment>Ninja Ryuuken Den - Matenrou Kessen (Japan) (v1.1) [CHS]</comment>
+			<duplicateID>48</duplicateID>
+		</game>
+		<game>
+			<imageNumber>49</imageNumber>
+			<releaseNumber>49</releaseNumber>
+			<title>SD高达外传 - 拉古罗亚群英传 (v1.1) (简)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>524288</romSize>
+			<publisher>Bandai</publisher>
+			<location>7</location>
+			<sourceRom>DMG</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">1EA6CEAF</romCRC>
+			</files>
+			<im1CRC>ED37DD81</im1CRC>
+			<im2CRC>5ACBF69A</im2CRC>
+			<comment>SD Gundam Gaiden - Lacroan' Heroes (Japan) (v1.1) [CHS]</comment>
+			<duplicateID>10</duplicateID>
+		</game>
+		<game>
+			<imageNumber>50</imageNumber>
+			<releaseNumber>50</releaseNumber>
+			<title>恶魔城 - 漆黑的前奏曲 (v1.0) (简)</title>
+			<saveType>64KBit</saveType>
+			<romSize>262144</romSize>
+			<publisher>Konami</publisher>
+			<location>7</location>
+			<sourceRom>DMG</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">57267F2E</romCRC>
+			</files>
+			<im1CRC>4E733417</im1CRC>
+			<im2CRC>4AF59F5E</im2CRC>
+			<comment>Akumajou Dracula - Shikkoku Taru Zensoukyoku - Dark Night Prelude (Japan) (SGB Enhanced) (v1.0) [CHS]</comment>
+			<duplicateID>50</duplicateID>
+		</game>
+		<game>
+			<imageNumber>51</imageNumber>
+			<releaseNumber>51</releaseNumber>
+			<title>科乐美收藏集3 (简)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>1048576</romSize>
+			<publisher>Konami</publisher>
+			<location>7</location>
+			<sourceRom>DMG</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">7CF6E170</romCRC>
+			</files>
+			<im1CRC>48A8B4FE</im1CRC>
+			<im2CRC>89E86A7D</im2CRC>
+			<comment>Konami GB Collection Vol.3 (Japan) (SGB Enhanced) [CHS]</comment>
+			<duplicateID>51</duplicateID>
+		</game>
+		<game>
+			<imageNumber>52</imageNumber>
+			<releaseNumber>52</releaseNumber>
+			<title>科乐美收藏集4 (简)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>1048576</romSize>
+			<publisher>Konami</publisher>
+			<location>7</location>
+			<sourceRom>DMG</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">6878880F</romCRC>
+			</files>
+			<im1CRC>302DC295</im1CRC>
+			<im2CRC>5D7F3968</im2CRC>
+			<comment>Konami GB Collection Vol.4 (Japan) (SGB Enhanced) [CHS]</comment>
+			<duplicateID>52</duplicateID>
+		</game>
+		<game>
+			<imageNumber>53</imageNumber>
+			<releaseNumber>53</releaseNumber>
+			<title>龙珠Z - 悟空飞翔传 (v1.0) (简)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>524288</romSize>
+			<publisher>Bandai</publisher>
+			<location>7</location>
+			<sourceRom>DMG</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">E5Ef25E5</romCRC>
+			</files>
+			<im1CRC>11A6F347</im1CRC>
+			<im2CRC>690F43D6</im2CRC>
+			<comment>Dragon Ball Z - Gokuu Hishouden (Japan) (SGB Enhanced) (v1.0) [CHS]</comment>
+			<duplicateID>3</duplicateID>
+		</game>
+		<game>
+			<imageNumber>54</imageNumber>
+			<releaseNumber>54</releaseNumber>
+			<title>超级机器人大战 (v1.1) (简)</title>
+			<saveType>256KBit</saveType>
+			<romSize>524288</romSize>
+			<publisher>Banpresto</publisher>
+			<location>7</location>
+			<sourceRom>DMG</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">1316ED65</romCRC>
+			</files>
+			<im1CRC>A33CE78B</im1CRC>
+			<im2CRC>E16961D7</im2CRC>
+			<comment>Super Robot Taisen (Japan) (v1.1) [CHS]</comment>
+			<duplicateID>18</duplicateID>
+		</game>
+		<game>
+			<imageNumber>55</imageNumber>
+			<releaseNumber>55</releaseNumber>
+			<title>大力工头阿源君 - 幽灵建筑公司 (v1.0) (简)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>262144</romSize>
+			<publisher>Irem</publisher>
+			<location>7</location>
+			<sourceRom>DMG&amp;Advance</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">A93FCD34</romCRC>
+			</files>
+			<im1CRC>2AC0E601</im1CRC>
+			<im2CRC>318D78DE</im2CRC>
+			<comment>Daiku no Gen-san - Ghost Building Company (Japan) (v1.0) [CHS]</comment>
+			<duplicateID>55</duplicateID>
+		</game>
+		<game>
+			<imageNumber>56</imageNumber>
+			<releaseNumber>56</releaseNumber>
+			<title>大力工头阿源君 - 机器人帝国的野心 (v1.0) (简)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>524288</romSize>
+			<publisher>Irem</publisher>
+			<location>7</location>
+			<sourceRom>DMG&amp;Advance</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">B911D8EB</romCRC>
+			</files>
+			<im1CRC>B3DA85C0</im1CRC>
+			<im2CRC>B5D3EA60</im2CRC>
+			<comment>Daiku no Gen-san - Robot Teikoku no Yabou (Japan) (v1.0) [CHS]</comment>
+			<duplicateID>56</duplicateID>
+		</game>
+		<game>
+			<imageNumber>57</imageNumber>
+			<releaseNumber>57</releaseNumber>
+			<title>龙珠Z - 悟空激斗传 (繁)</title>
+			<saveType>64KBit</saveType>
+			<romSize>1048576</romSize>
+			<publisher>Bandai</publisher>
+			<location>7</location>
+			<sourceRom>盗版&amp;yy小龙虾</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">D6205C8B</romCRC>
+			</files>
+			<im1CRC>6E0BF55A</im1CRC>
+			<im2CRC>87532398</im2CRC>
+			<comment>Dragon Ball Z - Gokuu Gekitouden (Japan) (SGB Enhanced) [CHT]</comment>
+			<duplicateID>57</duplicateID>
+		</game>
+		<game>
+			<imageNumber>58</imageNumber>
+			<releaseNumber>58</releaseNumber>
+			<title>忍者蛙 (v1.0) (简)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>262144</romSize>
+			<publisher>NCS</publisher>
+			<location>7</location>
+			<sourceRom>DMG</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">9DDB4D87</romCRC>
+			</files>
+			<im1CRC>5FACA706</im1CRC>
+			<im2CRC>A0968C35</im2CRC>
+			<comment>Battletoads (Japan) (v1.0) [CHS]</comment>
+			<duplicateID>58</duplicateID>
+		</game>
+		<game>
+			<imageNumber>59</imageNumber>
+			<releaseNumber>59</releaseNumber>
+			<title>奇天烈大百科 - 冒险大江户侏罗纪 (简)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>393216</romSize>
+			<publisher>Video System</publisher>
+			<location>7</location>
+			<sourceRom>盗版&amp;星夜之幻</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">D5AB832C</romCRC>
+			</files>
+			<im1CRC>A32F1F07</im1CRC>
+			<im2CRC>812ECD95</im2CRC>
+			<comment>Kiteretsu Daihyakka - Bouken Ooedo Juraki (Japan) [CHS]</comment>
+			<duplicateID>7</duplicateID>
+		</game>
+		<game>
+			<imageNumber>60</imageNumber>
+			<releaseNumber>60</releaseNumber>
+			<title>宇宙巡航机 (简)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>131072</romSize>
+			<publisher>Konami</publisher>
+			<location>7</location>
+			<sourceRom>翼势力</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">5735ADE6</romCRC>
+			</files>
+			<im1CRC>8B046844</im1CRC>
+			<im2CRC>3D655051</im2CRC>
+			<comment>Nemesis (Japan) [CHS]</comment>
+			<duplicateID>60</duplicateID>
+		</game>
+		<game>
+			<imageNumber>61</imageNumber>
+			<releaseNumber>61</releaseNumber>
+			<title>游戏王 - 怪兽之决斗 (繁)</title>
+			<saveType>64KBit</saveType>
+			<romSize>2097152</romSize>
+			<publisher>Konami</publisher>
+			<location>7</location>
+			<sourceRom>未知</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">5092BE10</romCRC>
+			</files>
+			<im1CRC>9AF735F2</im1CRC>
+			<im2CRC>80DF6054</im2CRC>
+			<comment>Yu-Gi-Oh! Duel Monsters (Japan) (SGB Enhanced) [CHT]</comment>
+			<duplicateID>61</duplicateID>
+		</game>
+		<game>
+			<imageNumber>62</imageNumber>
+			<releaseNumber>62</releaseNumber>
+			<title>名侦探柯南 - 疑惑的豪华列车 (修正版) (简)</title>
+			<saveType>No SRAM</saveType>
+			<romSize>524288</romSize>
+			<publisher>Bandai</publisher>
+			<location>7</location>
+			<sourceRom>盗版&amp;sss888</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">B0DB511B</romCRC>
+			</files>
+			<im1CRC>A5945883</im1CRC>
+			<im2CRC>267B1DA6</im2CRC>
+			<comment>Meitantei Conan - Giwaku no Gouka Ressha (Japan) (SGB Enhanced) (Fix) [CHS]</comment>
+			<duplicateID>62</duplicateID>
+		</game>
+		<game>
+			<imageNumber>63</imageNumber>
+			<releaseNumber>63</releaseNumber>
+			<title>女神转生外传 - 最后的圣经2 (繁)</title>
+			<saveType>64KBit</saveType>
+			<romSize>524288</romSize>
+			<publisher>Atlus</publisher>
+			<location>7</location>
+			<sourceRom>盗版&amp;呆呆鼠</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".gb">2BD76722</romCRC>
+			</files>
+			<im1CRC>8F540F3C</im1CRC>
+			<im2CRC>469EC409</im2CRC>
+			<comment>Megami Tensei Gaiden - Last Bible II (Japan) [CHT]</comment>
+			<duplicateID>63</duplicateID>
+		</game>
+	</games>
+</dat>
