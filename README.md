@@ -9,4 +9,4 @@
 >><a href="https://xiongonline.github.io/[转载][NDS]NDS汉化小白教程.html" target="_blank">[转载][NDS]NDS汉化小白教程</a><br/>
 
 
-下载链接：https://fall4-my.sharepoint.com/:f:/g/personal/xiongonlineyeah_fall4_onmicrosoft_com/Elxt_rTRgmpCgCoymez2yYIBVAl1rm3LcX0HwAggNQf4Xw?e=qf4Lic
+下载链接：<a href="https://fall4-my.sharepoint.com/:f:/g/personal/xiongonlineyeah_fall4_onmicrosoft_com/Elxt_rTRgmpCgCoymez2yYIBVAl1rm3LcX0HwAggNQf4Xw?e=qf4Lic" target="_blank">OneDrive</a>
