@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!-- Pictures by : money_114, xiong_online -->
+<!-- OL Datter : money_114, xiong_online -->
+
+<dat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datas.xsd">
+	<configuration>
+		<datName>Chinese Game Dat (Simplified) - NGPC</datName>
+		<imFolder>Chinese Games - NGPC</imFolder>
+		<datVersion>20230622</datVersion>
+		<system>SNK - Neo Geo Pocket Color</system>
+		<screenshotsWidth>160</screenshotsWidth>
+		<screenshotsHeight>152</screenshotsHeight>
+		<infos>
+			<title visible="true" inNamingOption="true" default="false"/>
+			<location visible="true" inNamingOption="true" default="true"/>
+			<publisher visible="true" inNamingOption="true" default="true"/>
+			<sourceRom visible="true" inNamingOption="true" default="true"/>
+			<romSize visible="true" inNamingOption="true" default="true"/>
+			<saveType visible="true" inNamingOption="true" default="false"/>
+			<releaseNumber visible="false" inNamingOption="true" default="false"/>
+			<imageNumber visible="false" inNamingOption="false" default="false"/>
+			<languageNumber visible="false" inNamingOption="false" default="false"/>
+			<comment visible="true" inNamingOption="true" default="true"/>
+			<romCRC visible="true" inNamingOption="true" default="true"/>
+			<im1CRC visible="false" inNamingOption="false" default="false"/>
+			<im2CRC visible="false" inNamingOption="false" default="false"/>
+			<languages visible="true" inNamingOption="true" default="true"/>
+		</infos>
+		<canOpen>
+			<extension>.ngp</extension>
+			<extension>.ngc</extension>
+			<extension>.bin</extension>
+		</canOpen>
+		<newDat>
+			<datVersionURL></datVersionURL>
+			<datURL fileName="CHS_NGPC_OL.zip"></datURL>
+			<imURL></imURL>
+		</newDat>
+		<search>
+			<to value="location" default="true" auto="true"/>
+			<to value="publisher" default="true" auto="true"/>
+			<to value="sourceRom" default="true" auto="true"/>
+			<to value="languages" default="false" auto="true"/>
+			<to value="romSize" default="true" auto="false">
+				<find operation="=" value="2097152">16 MBits</find>
+				<find operation="=" value="4194304">32 MBits</find>
+			</to>
+			<to value="saveType" default="false" auto="false">
+			</to>
+		</search>
+		<romTitle>%u - %n [%g]</romTitle>
+	</configuration>
+	<games>
+		<game>
+			<imageNumber>1</imageNumber>
+			<releaseNumber>1</releaseNumber>
+			<title>黑暗兵器 - 野兽梦魇1999 (美简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>SNK</publisher>
+			<location>18</location>
+			<sourceRom>ITUJUNUSA</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".ngc">4E3191C6</romCRC>
+			</files>
+			<im1CRC>F36D71E1</im1CRC>
+			<im2CRC>F7581AE2</im2CRC>
+			<comment>Dark Arms - Beast Buster 1999 (World) [CHS]</comment>
+			<duplicateID>1</duplicateID>
+		</game>
+		<game>
+			<imageNumber>2</imageNumber>
+			<releaseNumber>2</releaseNumber>
+			<title>拳皇R-2 (美简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>SNK</publisher>
+			<location>18</location>
+			<sourceRom>天空联盟</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".ngc">6BC678D2</romCRC>
+			</files>
+			<im1CRC>F860B0A8</im1CRC>
+			<im2CRC>C8958B14</im2CRC>
+			<comment>King of Fighters R-2 (World) [CHS]</comment>
+			<duplicateID>2</duplicateID>
+		</game>
+		<game>
+			<imageNumber>3</imageNumber>
+			<releaseNumber>3</releaseNumber>
+			<title>合金弹头 - 第一任务 (日简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>SNK</publisher>
+			<location>18</location>
+			<sourceRom>霍乱&amp;天空联盟</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".ngc">A50390BC</romCRC>
+			</files>
+			<im1CRC>409F953B</im1CRC>
+			<im2CRC>D50D2F39</im2CRC>
+			<comment>Metal Slug - 1st Mission (World) [CHS]</comment>
+			<duplicateID>3</duplicateID>
+		</game>
+		<game>
+			<imageNumber>4</imageNumber>
+			<releaseNumber>4</releaseNumber>
+			<title>合金弹头 - 第一任务 (日简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>SNK</publisher>
+			<location>18</location>
+			<sourceRom>霍乱</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".ngc">C2C5BCB4</romCRC>
+			</files>
+			<im1CRC>DA1B4B4E</im1CRC>
+			<im2CRC>D50D2F39</im2CRC>
+			<comment>Metal Slug - 1st Mission (World) [CHS]</comment>
+			<duplicateID>3</duplicateID>
+		</game>
+		<game>
+			<imageNumber>5</imageNumber>
+			<releaseNumber>5</releaseNumber>
+			<title>合金弹头 - 第一任务 (日简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>SNK</publisher>
+			<location>18</location>
+			<sourceRom>狂细胞</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".ngc">8ADED757</romCRC>
+			</files>
+			<im1CRC>A0D4E733</im1CRC>
+			<im2CRC>096B539C</im2CRC>
+			<comment>Metal Slug - 1st Mission (World) [CHS]</comment>
+			<duplicateID>3</duplicateID>
+		</game>
+		<game>
+			<imageNumber>6</imageNumber>
+			<releaseNumber>6</releaseNumber>
+			<title>拳皇对街霸 - 千禧之战 (美简)</title>
+			<saveType></saveType>
+			<romSize>4194304</romSize>
+			<publisher>SNK</publisher>
+			<location>18</location>
+			<sourceRom>YULIANGMAX&amp;天空联盟</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".ngc">533EBB53</romCRC>
+			</files>
+			<im1CRC>466F9ED9</im1CRC>
+			<im2CRC>F8424E1D</im2CRC>
+			<comment>SNK vs. Capcom - The Match of the Millennium (World) [CHS]</comment>
+			<duplicateID>6</duplicateID>
+		</game>
+		<game>
+			<imageNumber>7</imageNumber>
+			<releaseNumber>7</releaseNumber>
+			<title>拳皇对街霸 - 卡片战士 - SNK支持者 (v1.37) (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>SNK</publisher>
+			<location>7</location>
+			<sourceRom>星组</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".ngc">D8AB5F5B</romCRC>
+			</files>
+			<im1CRC>F722C4C9</im1CRC>
+			<im2CRC>88E42595</im2CRC>
+			<comment>SNK vs. Capcom - Gekitotsu Card Fighters - SNK Supporter Version (Japan) (v1.37) [CHS]</comment>
+			<duplicateID>7</duplicateID>
+		</game>
+		<game>
+			<imageNumber>8</imageNumber>
+			<releaseNumber>8</releaseNumber>
+			<title>拳皇对街霸 - 千禧之战 (v1.0) (日简)</title>
+			<saveType></saveType>
+			<romSize>4194304</romSize>
+			<publisher>SNK</publisher>
+			<location>18</location>
+			<sourceRom>星组</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".ngc">18B04108</romCRC>
+			</files>
+			<im1CRC>7DECA5A9</im1CRC>
+			<im2CRC>30C23D89</im2CRC>
+			<comment>SNK vs. Capcom - The Match of the Millennium (World) (v1.0) [CHS]</comment>
+			<duplicateID>6</duplicateID>
+		</game>
+		<game>
+			<imageNumber>9</imageNumber>
+			<releaseNumber>9</releaseNumber>
+			<title>皇家骑士团外传 - 赞诺比亚的皇子 (v0.4) (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>SNK</publisher>
+			<location>7</location>
+			<sourceRom>星组</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".ngc">58B102F0</romCRC>
+			</files>
+			<im1CRC>5999AA7F</im1CRC>
+			<im2CRC>20E84C84</im2CRC>
+			<comment>Densetsu no Ogre Battle Gaiden - Zenobia no Ouji (Japan) (v0.4) [CHS]</comment>
+			<duplicateID>9</duplicateID>
+		</game>
+		<game>
+			<imageNumber>10</imageNumber>
+			<releaseNumber>10</releaseNumber>
+			<title>拳皇对街霸 - 卡片战士 - SNK支持者 (v1.4) (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>SNK</publisher>
+			<location>7</location>
+			<sourceRom>hqqqqtv</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".ngc">07563E0A</romCRC>
+			</files>
+			<im1CRC>A62B469E</im1CRC>
+			<im2CRC>6B278D7C</im2CRC>
+			<comment>SNK vs. Capcom - Gekitotsu Card Fighters - SNK Supporter Version (Japan) (v1.4) [CHS]</comment>
+			<duplicateID>7</duplicateID>
+		</game>
+		<game>
+			<imageNumber>11</imageNumber>
+			<releaseNumber>11</releaseNumber>
+			<title>拳皇对街霸 - 卡片战士 - Capcom支持者 (v1.4) (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>SNK</publisher>
+			<location>7</location>
+			<sourceRom>hqqqqtv</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".ngc">E52402CD</romCRC>
+			</files>
+			<im1CRC>88AC3544</im1CRC>
+			<im2CRC>7FAC10BD</im2CRC>
+			<comment>SNK vs. Capcom - Gekitotsu Card Fighters - Capcom Supporter Version (Japan) (v1.4) [CHS]</comment>
+			<duplicateID>11</duplicateID>
+		</game>
+		<game>
+			<imageNumber>12</imageNumber>
+			<releaseNumber>12</releaseNumber>
+			<title>拳皇对街霸 - 卡片战士2 - 扩展版 (v0.58) (半汉化版) (简)</title>
+			<saveType></saveType>
+			<romSize>2097152</romSize>
+			<publisher>SNK</publisher>
+			<location>7</location>
+			<sourceRom>hqqqqtv</sourceRom>
+			<language>4</language>
+			<files>
+				<romCRC extension=".ngp">51B61454</romCRC>
+			</files>
+			<im1CRC>45D8019C</im1CRC>
+			<im2CRC>4D0514DF</im2CRC>
+			<comment>SNK vs. Capcom - Gekitotsu Card Fighters 2 - Expand Edition (Japan) (v0.58) [CHS]</comment>
+			<duplicateID>12</duplicateID>
+		</game>
+	</games>
+</dat>
